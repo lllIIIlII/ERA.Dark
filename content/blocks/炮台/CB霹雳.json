@@ -1,0 +1,164 @@
+{
+	"type": "PowerTurret",
+	"name": "霹雳",
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"unitSort": "weakest",
+	"health": 1200,
+	"size": 3,
+	"reload": 180,
+	"range": 250,
+	"recoilTime": 50,
+	"recoil": 1.1,
+	"canOverdrive": true,
+	"shoot": {
+		"type": "ShootPattern",
+		"firstShotDelay": 30,
+		"shots": 2
+	},
+	"consumes": {
+		"power": 17
+	},
+	"targetGround": true,
+	"targetAir": true,
+	"inaccuracy": 1,
+	"shake": 1.2,
+	"shootCone": 10,
+	"rotateSpeed": 2.6,
+	"shootSound": "shootLocus",
+	"shootType": {
+		"type": "ArtilleryBulletType",
+		"damage": 80,
+		"ammoMultiplier": 1,
+		"absorbable": false,
+		"collides": true,
+		"sprite": "circle-bullet",
+		"width": 12,
+		"height": 12,
+		"splashDamageRadius": 40,
+		"splashDamage": 12,
+		"lightning": 5,
+		"lightningDamage": 31,
+		"lightningLength": 2,
+		"despawnEffect": "none",
+		"status": "shocked",
+		"statusDuration": 450,
+		"speed": 2,
+		"lifetime": 125,
+		"shrinkX": 0,
+		"shrinkY": 0,
+		"backColor": "FFFFFF",
+		"frontColor": "8DA3F8",
+		"hitSound": "explosionQuad",
+		"hitSoundVolume": 1.2,
+		"hitShake": 8,
+		"hitEffect": {
+			"type": "MultiEffect",
+			"effects": [
+				{
+					"type": "WaveEffect",
+					"strokeFrom": 5,
+					"strokeTo": 0,
+					"sizeFrom": 0,
+					"sizeTo": 10,
+					"lifetime": 10,
+					"colorFrom": "FFFFFF",
+					"colorTo": "FFFFFF"
+				},
+				{
+					"type": "ParticleEffect",
+					"particles": 12,
+					"sizeFrom": 10,
+					"sizeTo": 0,
+					"length": 50,
+					"baseLength": 3,
+					"lifetime": 10,
+					"colorFrom": "FFFFFF",
+					"colorTo": "FFFFFF"
+				}
+			]
+		},
+		"bulletInterval": 3,
+		"intervalBullets": 1,
+		"intervalRandomSpread": 360,
+		"intervalSpread": 0,
+		"intervalAngle": 0,
+		"intervalDelay": -1,
+		"intervalBullet": {
+			"type": "LightningBulletType",
+			"damage": 90,
+			"lightningLength": 4,
+			"lightningLengthRand": 0.5,
+			"shootEffect": "shootHeal",
+			"smokeEffect": "none",
+			"instantDisappear": true,
+			"lightningColor": "FFFFFF",
+			"hitColor": "FFFFFF",
+			"hitEffect": "hitLancer",
+			"status": "shocked",
+			"despawnSound": "none"
+		}
+	},
+	"drawer": {
+		"type": "DrawTurret",
+		"parts": [
+			{
+				"type": "RegionPart",
+				"mirror": false,
+				"x": 0,
+				"y": 0,
+				"suffix": "-K",
+				"layer": 51,
+				"moveX": 0,
+				"moveY": 0,
+				"moves": [
+					{
+						"progress": "recoil",
+						"y": 0.1
+					}
+				]
+			},
+			{
+				"type": "RegionPart",
+				"mirror": false,
+				"x": 0,
+				"y": -3,
+				"suffix": "-H",
+				"layer": 52,
+				"moveX": 0,
+				"moveY": 0
+			},
+			{
+				"type": "RegionPart",
+				"mirror": false,
+				"x": 0,
+				"y": -3,
+				"suffix": "-glow",
+				"heatLight": true,
+				"outline": false,
+				"blending": "additive",
+				"layer": 100,
+				"turretHeatLayer": 100
+			}
+		]
+	},
+	"requirements": [
+		"graphite/300",
+		"silicon/50",
+		"copper/400",
+		"lead/90"
+	],
+	"category": "turret",
+	"research": {
+		"parent": "CA弧光",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "ruinousShores"
+			}
+		]
+	}
+}

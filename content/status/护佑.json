@@ -1,0 +1,8 @@
+{
+	"name": "护佑",
+	"color": "74AC83",
+	"speedMultiplier": 1,
+	"healthMultiplier": 1.75,
+	"reloadMultiplier": 1.12,
+    "damageMultiplier": 0.9
+}

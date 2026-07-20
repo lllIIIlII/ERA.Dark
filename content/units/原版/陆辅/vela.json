@@ -1,0 +1,198 @@
+{
+	"health": 10200,
+	"armor": 12,
+	"boostMultiplier": 3.8,
+	"speed": 0.84,
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"immunities": [
+		"burning",
+		"electrified"
+	],
+	"weapons": [
+		{
+			"mirror": false,
+			"top": false,
+			"shake": 4,
+			"shootY": 14,
+			"x": 0,
+			"y": 0,
+			"reload": 170,
+			"recoil": 0,
+			"parentizeEffects": true,
+			"shoot": {
+				"type": "ShootPattern",
+				"firstShotDelay": 59
+			},
+			"chargeSound": "chargeVela",
+			"shootSound": "beamPlasmaSmall",
+			"continuous": true,
+			"cooldownTime": 200,
+			"bullet": {
+				"type": "ContinuousLaserBulletType",
+				"hitEffect": {
+					"type": "ParticleEffect",
+					"particles": 3,
+					"baseLength": 8,
+					"length": 18,
+					"lifetime": 10,
+					"line": true,
+					"lenFrom": 16,
+					"lenTo": 0,
+					"strokeFrom": 1.6,
+					"strokeTo": 0,
+					"colorFrom": "98FFA9",
+					"colorTo": "98FFA9"
+				},
+				"shootEffect": {
+					"type": "ParticleEffect",
+					"particles": 3,
+					"baseLength": 8,
+					"length": 38,
+					"lifetime": 18,
+					"line": true,
+					"lenFrom": 12,
+					"lenTo": 0,
+					"strokeFrom": 1,
+					"strokeTo": 0,
+					"colorFrom": "98FFA9",
+					"colorTo": "98FFA9",
+					"cone": 60
+				},
+				"smokeEffect": "none",
+				"status": "electrified",
+				"statusDuration": 20,
+				"collidesTeam": true,
+				"healPercent": 1.3,
+				"ammoMultiplier": 1,
+				"length": 250,
+				"damage": 45,
+				"lifetime": 200,
+				"colors": [
+					"7CF38990",
+					"98FFA980",
+					"FFFFFF"
+				],
+				"chargeEffect": {
+					"type": "MultiEffect",
+					"effects": [
+						{
+							"type": "ParticleEffect",
+							"particles": 1,
+							"length": 0,
+							"baseLength": 0,
+							"lifetime": 49,
+							"startDelay": 10,
+							"colorFrom": "7CF389",
+							"colorTo": "7CF389",
+							"sizeFrom": 0,
+							"sizeTo": 5
+						},
+						{
+							"type": "WaveEffect",
+							"lifetime": 40,
+							"sizeFrom": 90,
+							"sizeTo": 0,
+							"strokeFrom": 0,
+							"strokeTo": 8,
+							"interp": "circleIn",
+							"colorFrom": "7CF389",
+							"colorTo": "7CF389"
+						},
+						{
+							"type": "ParticleEffect",
+							"particles": 33,
+							"baseLength": -80,
+							"length": 80,
+							"lifetime": 40,
+							"line": true,
+							"lenFrom": 0,
+							"lenTo": 10,
+							"strokeFrom": 1,
+							"strokeTo": 1.5,
+							"interp": "pow5In",
+							"sizeInterp": "pow3Out",
+							"colorFrom": "FFFFFF",
+							"colorTo": "98FFA9"
+						}
+					]
+				},
+				"incendChance": 0.1,
+				"incendSpread": 8,
+				"incendAmount": 1,
+				"bulletInterval": 1,
+				"intervalBullets": 2,
+				"intervalRandomSpread": 24,
+				"intervalBullet": {
+					"velocityScaleRandMin": 0.1,
+					"velocityScaleRandMax": 1.1,
+					"speed": 10,
+					"weaveScale": 5,
+					"weaveMag": 2,
+					"lifetime": 25,
+					"shrinkX": 0,
+					"shrinkY": 0,
+					"width": 2,
+					"height": 2,
+					"damage": 7,
+					"splashDamage": 12,
+					"knockback": 6,
+					"hitSound": "bang",
+					"sprite": "large-orb",
+					"backColor": "A0F19B",
+					"frontColor": "98FFA9",
+					"status": "disarmed",
+					"statusDuration": 5,
+					"collides": true,
+					"collidesTeam": true,
+					"healPercent": 1,
+					"hitShake": 3,
+					"trailColor": "A0F19B",
+					"trailLength": 2,
+					"trailWidth": 1,
+					"hitEffect": {
+						"type": "MultiEffect",
+						"effects": [
+							{
+								"type": "ParticleEffect",
+								"particles": 2,
+								"line": true,
+								"strokeFrom": 3,
+								"strokeTo": 0,
+								"lenFrom": 20,
+								"lenTo": 0,
+								"lifetime": 10,
+								"colorFrom": "98FFA9",
+								"colorTo": "05774850"
+							},
+							{
+								"type": "WaveEffect",
+								"sizeFrom": 0,
+								"sizeTo": 20,
+								"lifetime": 10,
+								"colorFrom": "98FFA9",
+								"colorTo": "FFFFFF50"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"name": "repair-beam-weapon-center-large",
+			"type": "RepairBeamWeapon",
+			"x": 11,
+			"y": -7.5,
+			"shootY": 6,
+			"beamWidth": 0.8,
+			"mirror": true,
+			"repairSpeed": 2,
+			"bullet": {
+				"maxRange": 120
+			}
+		}
+	]
+}

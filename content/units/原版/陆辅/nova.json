@@ -1,0 +1,39 @@
+{
+	"health": 200,
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"speed": 0.7,
+	"weapons": [
+		{
+			"name": "heal-weapon-mount",
+			"reload": 60,
+			"x": 4.5,
+			"y": 0,
+			"shoot": {
+				"shots": 3,
+				"shotDelay": 6
+			},
+			"rotate": false,
+			"shootY": 4.5,
+			"top": false,
+			"inaccuracy": 0,
+			"alternate": false,
+			"shootSound": "shootLaser",
+			"bullet": {
+				"type": "LaserBoltBulletType",
+				"frontColor": "FFFFFF",
+				"backColor": "98FFA9",
+				"healPercent": 5,
+				"damage": 15,
+				"collidesTeam": true,
+				"speed": 7.6,
+				"lifetime": 20,
+				"width": 2,
+				"height": 8
+			}
+		}
+	]
+}

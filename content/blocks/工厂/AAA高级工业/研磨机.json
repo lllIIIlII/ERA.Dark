@@ -1,0 +1,68 @@
+{
+	"type": "GenericCrafter",
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"name": "研磨机",
+	"health": 800,
+	"itemCapacity": 20,
+	"liquidCapacity": 400,
+	"outputItem": "磨砂金属粉末/6",
+	"size": 4,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"craftTime": 90,
+	"consumes": {
+		"power": 6,
+		"liquid": "slag/1.2",
+		"items": [
+			"sand/3",
+			"金刚砂/3"
+		]
+	},
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "slag"
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-Z",
+				"spinSprite": false,
+				"drawPlan": true,
+				"buildingRotate": false,
+				"rotateSpeed": 0.8
+			},
+			"DrawDefault"
+		]
+	},
+	"updateEffect": "none",
+	"requirements": [
+		"钢/200",
+		"copper/400",
+		"锰/150",
+		"graphite/50",
+		"metaglass/155"
+	],
+	"category": "crafting",
+	"research": {
+		"parent": "高温熔炼炉",
+		"objectives": [
+			{
+				"type": "OnSector",
+				"preset": "南极前哨站"
+			}
+		]
+	},
+	"ambientSound": "loopDrill",
+	"ambientSoundVolume": 0.7
+}

@@ -1,0 +1,18 @@
+{
+"health": 60,
+"size":1,
+"update": true,
+"hasItems": true,
+"type":"Junction",
+"name":"钛交叉器",
+"category": "distribution",
+"research": "distributor",
+"shownPlanets": [ "serpulo","Planzer","Synchronous-orbit-space-station"],
+"speed": 10
+"capacity": 14
+"buildCostMultiplier": 6
+"requirements": [
+		"titanium/2",
+		"copper/1"
+	]
+}

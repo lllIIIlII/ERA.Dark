@@ -1,0 +1,16 @@
+{
+    "name": "锰",
+    "color": "DE72E0",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "hardness": 5.2,
+    "cost": 4.2,
+    "alwaysUnlocked": false,
+    "research": "铬",
+    "shownPlanets": [
+        "serpulo",
+        "Planzer"
+    ]
+}

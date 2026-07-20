@@ -1,0 +1,6 @@
+{
+"shownPlanets": [ "serpulo","Planzer","Synchronous-orbit-space-station"],
+"speed": 26
+"capacity": 10
+"buildCostMultiplier": 3
+}

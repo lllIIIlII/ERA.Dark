@@ -1,0 +1,38 @@
+{
+    "type": "BeamDrill",
+    "shownPlanets": [
+        "serpulo",
+        "Planzer",
+        "Synchronous-orbit-space-station"
+    ],
+    "name": "深孔钻机",
+    "size": 3,
+    "tier": 6,
+    "health": 500,
+    "itemCapacity": 20,
+    "liquidCapacity": 30,
+    "hasItems": true,
+    "canOverdrive": true,
+    "drillTime": 60,
+    "fogRadius":7.5
+    "range": 6,
+    "laserWidth": 0.5,
+    "liquidBoostIntensity": 1.7,
+    "consumes": {
+        "power": 1.2,
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.32,
+            "booster": true,
+            "optional": true
+        }
+    },
+    "research": "液压钻机",
+    "category": "production",
+    "requirements": [
+        "copper/30",
+        "graphite/15",
+        "thorium/60",
+        "metaglass/5"
+    ]
+}

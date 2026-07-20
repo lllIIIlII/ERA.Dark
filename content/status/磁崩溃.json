@@ -1,0 +1,8 @@
+{
+	"name": "磁崩溃",
+	"color": "6C2893",
+	"speedMultiplier": 0.8,
+	"healthMultiplier": 0.7,
+	"reloadMultiplier": 0.2,
+    "damageMultiplier": 0.7
+}

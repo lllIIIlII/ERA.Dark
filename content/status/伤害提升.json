@@ -1,0 +1,11 @@
+{
+	"name": "伤害提升",
+	"color": "FF9C00",
+	"speedMultiplier": 1,
+	"healthMultiplier": 1,
+	"reloadMultiplier": 1,
+    "damageMultiplier": 1.25,
+	"opposites": [
+	"虚弱"
+	],
+}

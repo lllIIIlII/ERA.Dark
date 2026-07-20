@@ -1,0 +1,15 @@
+{
+    "name":"金刚砂",
+    "color":"E6E6E6",
+    "explosiveness":0,
+    "flammability":0,
+    "radioactivity":0,
+    "hardness": 8.9,
+    "cost": 2,
+    "alwaysUnlocked": false,
+    "healthScaling": 2,
+	"research": {
+    "parent": "钢",
+	}
+	"shownPlanets": [ "serpulo","Planzer" ]
+}

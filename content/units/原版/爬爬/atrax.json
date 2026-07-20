@@ -1,0 +1,60 @@
+{
+  "shownPlanets": [
+    "serpulo",
+    "Planzer",
+    "Synchronous-orbit-space-station"
+  ],
+  "speed": 1,
+  "drag": 0.4,
+  "hitSize": 13,
+  "rotateSpeed": 3,
+  "targetAir": false,
+  "health": 800,
+  "name": "atrax",
+  "abilities": [
+    {
+      "type": "SpawnDeathAbility",
+      "unit": "crawler",
+      "amount": 0,
+      "randAmount": 2,
+      "spread": 4
+    }
+  ],
+  "immunities": [
+    "burning",
+    "melting"
+  ],
+  "stepSound": "walkerStepSmall",
+  "stepSoundPitch": 1,
+  "stepSoundVolume": 0.25,
+  "legCount": 4,
+  "legLength": 9,
+  "legForwardScl": 0.6,
+  "legMoveSpace": 1.4,
+  "hovering": true,
+  "armor": 3,
+  "shadowElevation": 0.2,
+  "weapons": [
+    {
+      "name": "atrax-weapon",
+      "top": false,
+      "shootY": 3,
+      "reload": 4,
+      "ejectEffect": "none",
+      "recoil": 1,
+      "x": 7,
+      "y": 0,
+      "shootSound": "shootAtrax",
+      "bullet": {
+        "type": "LiquidBulletType",
+        "liquid": "slag",
+        "damage": 16,
+        "speed": 2.5,
+        "drag": 0.009,
+        "shootEffect": "shootSmall",
+        "lifetime": 57,
+        "collidesAir": false
+      }
+    }
+  ]
+}

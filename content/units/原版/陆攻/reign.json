@@ -1,0 +1,90 @@
+{
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"armor": 29,
+	"health": 46500,
+	"speed": 0.78,
+	"weapons": [
+		{
+			"name": "reign-weapon",
+			"reload": 50,
+			"shake": 3,
+			"shoot": {
+				"shots": 3,
+				"shotDelay": 2
+			},
+			"recoil": 5,
+			"x": 21.5,
+			"shootX": 0,
+			"shootY": 11,
+			"rotate": false,
+			"top": false,
+			"inaccuracy": 1,
+			"shootSound": "shootArtillery",
+			"alternate": true,
+			"ejectEffect": "casing4",
+			"bullet": {
+				"status": "blasted",
+				"damage": 235,
+				"pierceArmor": true,
+				"pierce": true,
+				"pierceCap": 3,
+				"speed": 15,
+				"lifetime": 20,
+				"shootEffect": "shootBig",
+				"smokeEffect": "shootBigSmoke",
+				"width": 13,
+				"height": 34,
+				"hitSound": "explosion",
+				"hitEffect": "flakExplosion"
+			}
+		},
+		{
+			"name": "artillery",
+			"x": 8,
+			"y": -8,
+			"reload": 60,
+			"rotate": true,
+			"rotateSpeed": 9,
+			"top": true,
+			"shoot": {
+				"type": "shootSpread",
+				"shotDelay": 1,
+				"shots": 3
+			},
+			"alternate": false,
+			"shootSound": "shootAlt",
+			"inaccuracy": 5,
+			"shootCone": 3,
+			"bullet": {
+				"status": "blasted",
+				"damage": 76,
+				"splashDamageRadius": 45,
+				"splashDamage": 55,
+				"hitEffect": "flakExplosionBig",
+				"despawnEffect": "flakExplosionBig",
+				"width": 10,
+				"height": 13,
+				"speed": 26,
+				"lifetime": 8,
+				"fragBullets": 7,
+				"fragRandomSpread": 30,
+				"fragBullet": {
+					"damage": 14,
+					"width": 3,
+					"height": 5,
+					"pierce": true,
+					"pierceBuilding": true,
+					"pierceCap": 3,
+					"speed": 36,
+					"lifetime": 1,
+					"hitSound": "bang",
+					"hitEffect": "flakExplosion"
+				}
+			}
+		}
+	]
+}

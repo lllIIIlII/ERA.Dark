@@ -1,0 +1,12 @@
+{
+    "name": "锰",
+    "type": "OreBlock",
+    "playerUnmineable": true,
+    "itemDrop": "锰",
+    "variants": 3,
+    "mapColor": "DE72E0",
+    "useColor": true,
+    "oreDefault": true,
+    "oreThreshold": 0.86,
+    "oreScale": 19
+}

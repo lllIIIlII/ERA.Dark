@@ -1,0 +1,10 @@
+{
+"shownPlanets": [ "serpulo","Planzer","Synchronous-orbit-space-station"]
+  "speed": 8,
+	"range": 6,
+	"bufferCapacity": 15
+	"requirements": [
+	"copper/15",
+	"lead/15"
+	]
+}

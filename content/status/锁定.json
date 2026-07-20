@@ -1,0 +1,8 @@
+{
+	"name": "锁定",
+	"color": "F2AA70",
+	"speedMultiplier": 1.1,
+	"healthMultiplier": 0.92,
+	"reloadMultiplier": 0.97,
+    "damageMultiplier": 0.95,
+}

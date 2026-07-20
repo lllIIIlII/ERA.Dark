@@ -1,0 +1,64 @@
+{
+	"health": 720,
+	"armor": 5,
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"speed": 0.8,
+	"abilities": [
+		{
+			"type": "ShieldRegenFieldAbility",
+			"amount": 20,
+			"max": 120,
+			"reload": 300,
+			"range": 90,
+			"applyEffect": "shieldApply",
+			"activeEffect": "shieldWave"
+		}
+	],
+	"weapons": [
+		{
+			"name": "heal-weapon",
+			"reload": 30,
+			"shootY": 6,
+			"x": 6,
+			"y": 0,
+			"inaccuracy": 30,
+			"shoot": {
+				"shots": 5,
+				"shotDelay": 0.2
+			},
+			"shake": 2.2,
+			"recoil": 2.5,
+			"top": false,
+			"shootSound": "shootPulsar",
+			"alternate": true,
+			"bullet": {
+				"type": "LightningBulletType",
+				"damage": 20,
+				"lightningColor": "98FFA9",
+				"hitColor": "98FFA9",
+				"lightningLength": 8,
+				"lightningLengthRand": 6,
+				"shootEffect": "shootHeal",
+				"smokeEffect": "none",
+				"healPercent": 3,
+				"lightningType": {
+					"lifetime": 10,
+					"width": 0,
+					"height": 0,
+					"speed": 0.0001,
+					"hitSize": 5,
+					"collidesTeam": true,
+					"hittable": false,
+					"hitEffect": "hitLancer",
+					"despawnEffect": "none",
+					"status": "shocked",
+					"healPercent": 2
+				}
+			}
+		}
+	]
+}

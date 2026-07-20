@@ -1,0 +1,13 @@
+{
+    "name": "镍",
+    "type": "OreBlock",
+    "playerUnmineable": true,
+    "itemDrop": "镍",
+    "variants": 3,
+    "mapColor": "F9FFA6",
+    "wallOre": true,
+    "useColor": true,
+    "oreDefault": false,
+    "oreThreshold": 0,
+    "oreScale": 0
+}

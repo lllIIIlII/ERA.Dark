@@ -1,0 +1,88 @@
+{
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"armor": 9,
+	"health": 16800,
+	"speed": 0.85,
+	"abilities": [
+		{
+			"type": "ShieldRegenFieldAbility",
+			"amount": 500,
+			"reload": 60,
+			"range": 100
+		}
+	],
+	"weapons": [
+		{
+			"name": "scepter-weapon",
+			"reload": 40,
+			"shoot": {
+				"shots": 4,
+				"shotDelay": 3
+			},
+			"x": 16,
+			"y": 0,
+			"shootY": 10,
+			"rotate": false,
+			"inaccuracy": 3,
+			"shootSound": "shootBig",
+			"alternate": true,
+			"top": false,
+			"ejectEffect": "casing4",
+			"shake": 3,
+			"bullet": {
+				"damage": 35,
+				"splashDamage": 45,
+				"splashDamageRadius": 35,
+				"status": "shocked",
+				"statusDuration": 60,
+				"speed": 6,
+				"lifetime": 42,
+				"smokeEffect": "shootBig",
+				"width": 10,
+				"height": 15,
+				"hitEffect": "flakExplosionBig",
+				"despawnEffect": "flakExplosionBig"
+			}
+		},
+		{
+			"name": "weapon",
+			"reload": 10,
+			"x": 10,
+			"y": 7,
+			"rotate": true,
+			"rotateSpeed": 9,
+			"inaccuracy": 0,
+			"alternate": true,
+			"ejectEffect": "casing1",
+			"bullet": {
+				"damage": 20,
+				"speed": 8,
+				"lifetime": 23,
+				"width": 5,
+				"height": 8
+			}
+		},
+		{
+			"name": "weapon",
+			"reload": 15,
+			"x": 10,
+			"y": -8,
+			"rotate": true,
+			"rotateSpeed": 9,
+			"inaccuracy": 0,
+			"alternate": true,
+			"ejectEffect": "casing1",
+			"bullet": {
+				"damage": 20,
+				"speed": 8,
+				"lifetime": 23,
+				"width": 5,
+				"height": 8
+			}
+		}
+	]
+}

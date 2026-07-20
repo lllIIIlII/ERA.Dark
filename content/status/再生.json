@@ -1,0 +1,23 @@
+{
+	"name": "再生",
+	"color": "A0F19B",
+	"speedMultiplier": 1,
+	"healthMultiplier": 1.05,
+	"reloadMultiplier": 1,
+    "damageMultiplier": 1.1,
+	"effectChance": 0.12,
+	"damage":-145.12
+	"effect": {
+	"type": "ParticleEffect",
+	"particles": 1,
+	"baseLength": 0,
+	"length": 20,
+	"lifetime": 60,
+	"interp": "fastSlow",
+	"region": "ed-十字",
+	"sizeFrom": 2,
+	"sizeTo": 5,
+	"colorFrom": "A0F19B",
+	"colorTo": "74AC8366"
+	}
+}

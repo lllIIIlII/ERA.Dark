@@ -1,0 +1,56 @@
+{
+	"health": 1300,
+	"boostMultiplier": 2.3,
+	"speed": 0.89,
+	"armor": 7,
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"abilities": [
+		{
+			"type": "ForceFieldAbility",
+			"sides": 8,
+			"radius": 70,
+			"max": 500,
+			"regen": 2,
+			"cooldown": 300
+		}
+	],
+	"weapons": [
+		{
+			"name": "beam-weapon",
+			"reload": 50,
+			"x": 7,
+			"y": -1,
+			"rotate": false,
+			"top": false,
+			"recoil": 4,
+			"inaccuracy": 0,
+			"alternate": true,
+			"shootSound": "shootLancer",
+			"shake": 2,
+			"bullet": {
+				"type": "LaserBulletType",
+				"healPercent": 8,
+				"recoil": 1,
+				"damage": 89,
+				"collidesTeam": true,
+				"laserAbsorb": true,
+				"shootEffect": "bigShockwave",
+				"pierceCap": 8,
+				"sideAngle": 35,
+				"sideWidth": 1,
+				"sideLength": 70,
+				"colors": [
+					"7CF38990",
+					"98FFA980",
+					"FFFFFF"
+				],
+				"width": 16,
+				"length": 200
+			}
+		}
+	]
+}

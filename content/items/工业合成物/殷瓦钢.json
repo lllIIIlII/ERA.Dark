@@ -1,0 +1,12 @@
+{
+    "name": "殷瓦钢",
+    "color": "97A1FF",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0
+    "hardness":5,
+    "cost": 8,
+    "alwaysUnlocked":false,
+    "research": "锰钢"
+    "shownPlanets": [ "serpulo","Planzer" ]
+}

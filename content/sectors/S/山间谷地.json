@@ -1,0 +1,21 @@
+{
+	"captureWave": 21,
+	"planet": "serpulo",
+	"sector": 4,
+	"difficulty": 8,
+	"research": {
+    "parent": "巴尔切特波山麓",
+    "objectives": [ 
+      {
+        "type": "SectorComplete",
+        "preset": "巴尔切特波山麓"
+      }
+     ]
+    }
+	"alwaysUnlocked":false
+	"addStartingItems": true
+	"overrideLaunchDefaults": false,
+	"isLastSector": false,
+	"allowLaunchSchematics": true,
+	"allowLaunchLoadout": false
+}

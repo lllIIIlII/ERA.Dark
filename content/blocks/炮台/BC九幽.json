@@ -1,0 +1,556 @@
+{
+	"type": "ItemTurret",
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"name": "九幽",
+	"unitSort": "strongest",
+	"health": 7050,
+	"size": 4,
+	"reload": 900,
+	"range": 800,
+	"recoilTime": 120,
+	"recoil": 3.4,
+	"minWarmup": 0.4,
+	"cooldownTime": 80,
+	"consumes": {
+		"power": 51,
+		"coolant": {
+			"amount": 0.5,
+			"optional": true
+		}
+	},
+	"shootSound": "shootSmite",
+	"targetGround": true,
+	"targetAir": true,
+	"inaccuracy": 0,
+	"shake": 3,
+	"shootCone": 0.1,
+	"rotateSpeed": 2.5,
+	"ammoTypes": {
+		"phase-fabric": {
+			"type": "PointBulletType",
+			"damage": 4800,
+			"rangeChange": 800,
+			"ammoMultiplier": 1,
+			"hitSound": "explosionArtilleryShockBig",
+			"lifetime": 1,
+			"speed": 1600,
+			"hitShake": 7,
+			"pierceArmor": true,
+			"buildingDamageMultiplier": 0,
+			"trailSpacing": 10,
+			"despawnEffect": "none",
+			"smokeEffect": {
+				"type": "MultiEffect",
+				"effects": [
+					{
+						"type": "ParticleEffect",
+						"particles": 1,
+						"region": "ed-冲压波",
+						"sizeFrom": 45,
+						"sizeTo": 45,
+						"length": 10,
+						"baseLength": 0,
+						"lifetime": 60,
+						"colorFrom": "FED5A6",
+						"colorTo": "FED5A600",
+						"cone": 0
+					},
+					{
+						"type": "ParticleEffect",
+						"particles": 2,
+						"region": "ed-冲压波",
+						"sizeFrom": 30,
+						"sizeTo": 30,
+						"length": 40,
+						"baseLength": 150,
+						"lifetime": 60,
+						"colorFrom": "FED5A6",
+						"colorTo": "FED5A600",
+						"cone": 0
+					}
+				]
+			},
+			"trailEffect": {
+				"type": "ParticleEffect",
+				"particles": 1,
+				"baseLength": 0.1,
+				"length": 0.1,
+				"lifetime": 22,
+				"line": true,
+				"randLength": false,
+				"lenFrom": 9,
+				"lenTo": 9,
+				"strokeFrom": 8,
+				"strokeTo": 0,
+				"colorFrom": "FED5A6",
+				"colorTo": "FED5A6",
+				"cone": 0
+			},
+			"shootEffect": {
+				"type": "MultiEffect",
+				"effects": [
+					{
+						"type": "ParticleEffect",
+						"particles": 5,
+						"line": true,
+						"strokeFrom": 2,
+						"strokeTo": 0,
+						"lenFrom": 20,
+						"lenTo": 0,
+						"length": 30,
+						"baseLength": 5,
+						"lifetime": 10,
+						"cone": 30,
+						"colorFrom": "FED5A6",
+						"colorTo": "FED5A6"
+					},
+					{
+						"type": "WaveEffect",
+						"strokeFrom": 5,
+						"strokeTo": 1,
+						"sizeFrom": 0,
+						"sizeTo": 42,
+						"lifetime": 30,
+						"colorFrom": "FFFFFF80",
+						"colorTo": "FFFFFF"
+					}
+				]
+			},
+			"hitEffect": {
+				"type": "MultiEffect",
+				"effects": [
+					{
+						"type": "ParticleEffect",
+						"particles": 4,
+						"interp": "pow5In",
+						"sizeInterp": "pow10Out",
+						"sizeFrom": 20,
+						"sizeTo": 10,
+						"strokeFrom": 2,
+						"strokeTo": 52,
+						"length": 120,
+						"baseLength": 0,
+						"lifetime": 10,
+						"colorFrom": "FED5A6",
+						"colorTo": "FED5A600"
+					},
+					{
+						"type": "ParticleEffect",
+						"particles": 3,
+						"interp": "pow5In",
+						"sizeInterp": "pow10Out",
+						"sizeFrom": 30,
+						"sizeTo": 10,
+						"strokeFrom": 2,
+						"strokeTo": 66,
+						"length": 130,
+						"baseLength": 0,
+						"lifetime": 80,
+						"colorFrom": "FED5A6",
+						"colorTo": "FED5A600"
+					},
+					{
+						"type": "ParticleEffect",
+						"particles": 2,
+						"interp": "pow5In",
+						"sizeInterp": "pow10Out",
+						"sizeFrom": 10,
+						"sizeTo": 0,
+						"strokeFrom": 2,
+						"strokeTo": 60,
+						"length": 140,
+						"baseLength": 0,
+						"lifetime": 100,
+						"colorFrom": "FED5A6",
+						"colorTo": "FED5A600"
+					},
+					{
+						"type": "WaveEffect",
+						"strokeFrom": 0,
+						"strokeTo": 0,
+						"sizeFrom": 80,
+						"sizeTo": 156,
+						"lifetime": 30,
+						"colorFrom": "FFFFFF50",
+						"colorTo": "FFFFFF"
+					}
+				]
+			}
+		},
+		"暗能钢": {
+			"type": "PointBulletType",
+			"damage": 8800,
+			"ammoMultiplier": 1,
+			"hitSound": "explosionArtilleryShockBig",
+			"lifetime": 4,
+			"speed": 200,
+			"hitShake": 7,
+			"status": "致盲",
+			"statusDuration": 300,
+			"buildingDamageMultiplier": 0.4,
+			"trailSpacing": 1,
+			"smokeEffect": {
+				"type": "MultiEffect",
+				"effects": [
+					{
+						"type": "ParticleEffect",
+						"particles": 1,
+						"region": "ed-冲压波2",
+						"sizeFrom": 50,
+						"sizeTo": 50,
+						"length": 20,
+						"baseLength": 0,
+						"lifetime": 60,
+						"colorFrom": "FFFFFF",
+						"colorTo": "000000",
+						"cone": 0
+					},
+					{
+						"type": "ParticleEffect",
+						"particles": 2,
+						"region": "ed-冲压波2",
+						"sizeFrom": 35,
+						"sizeTo": 35,
+						"length": 60,
+						"baseLength": 200,
+						"lifetime": 60,
+						"colorFrom": "FFFFFF",
+						"colorTo": "000000",
+						"cone": 0
+					}
+				]
+			},
+			"trailEffect": {
+				"type": "ParticleEffect",
+				"particles": 1,
+				"baseLength": 0.1,
+				"length": 0.1,
+				"lifetime": 22,
+				"line": true,
+				"randLength": false,
+				"lenFrom": 9,
+				"lenTo": 9,
+				"strokeFrom": 8,
+				"strokeTo": 0,
+				"colorFrom": "2B2C2C",
+				"colorTo": "2B2C2C",
+				"cone": 0
+			},
+			"despawnEffect": "none",
+			"shootEffect": {
+				"type": "MultiEffect",
+				"effects": [
+					{
+						"type": "ParticleEffect",
+						"particles": 4,
+						"line": true,
+						"strokeFrom": 2,
+						"strokeTo": 0,
+						"lenFrom": 20,
+						"lenTo": 0,
+						"length": 30,
+						"baseLength": 4,
+						"lifetime": 10,
+						"cone": 30,
+						"colorFrom": "2B2C2C",
+						"colorTo": "2B2C2C"
+					},
+					{
+						"type": "WaveEffect",
+						"strokeFrom": 5,
+						"strokeTo": 1,
+						"sizeFrom": 0,
+						"sizeTo": 42,
+						"lifetime": 30,
+						"colorFrom": "FFFFFF80",
+						"colorTo": "FFFFFF"
+					}
+				]
+			},
+			"hitEffect": {
+				"type": "MultiEffect",
+				"effects": [
+					{
+						"type": "ParticleEffect",
+						"particles": 4,
+						"interp": "pow5In",
+						"sizeInterp": "pow10Out",
+						"sizeFrom": 20,
+						"sizeTo": 10,
+						"strokeFrom": 2,
+						"strokeTo": 52,
+						"length": 120,
+						"baseLength": 0,
+						"lifetime": 60,
+						"colorFrom": "2B2C2C",
+						"colorTo": "2B2C2C00"
+					},
+					{
+						"type": "ParticleEffect",
+						"particles": 3,
+						"interp": "pow5In",
+						"sizeInterp": "pow10Out",
+						"sizeFrom": 30,
+						"sizeTo": 10,
+						"strokeFrom": 2,
+						"strokeTo": 66,
+						"length": 130,
+						"baseLength": 0,
+						"lifetime": 80,
+						"colorFrom": "2B2C2C",
+						"colorTo": "2B2C2C00"
+					},
+					{
+						"type": "ParticleEffect",
+						"particles": 2,
+						"interp": "pow5In",
+						"sizeInterp": "pow10Out",
+						"sizeFrom": 10,
+						"sizeTo": 0,
+						"strokeFrom": 2,
+						"strokeTo": 60,
+						"length": 140,
+						"baseLength": 0,
+						"lifetime": 100,
+						"colorFrom": "2B2C2C",
+						"colorTo": "2B2C2C00"
+					},
+					{
+						"type": "WaveEffect",
+						"strokeFrom": 0,
+						"strokeTo": 0,
+						"sizeFrom": 80,
+						"sizeTo": 156,
+						"lifetime": 30,
+						"colorFrom": "FFFFFF50",
+						"colorTo": "FFFFFF"
+					}
+				]
+			},
+			"fragBullets": 10,
+			"fragRandomSpread": 60,
+			"fragBullet": {
+				"type": "PointBulletType",
+				"speed": 40,
+				"lifetime": 1,
+				"damage": 680,
+				"splashDamageRadius": 40,
+				"splashDamage": 220,
+				"pierceCap": 3,
+				"hitSound": "none",
+				"trailColor": "2B2C2C",
+				"trailSpacing": 1,
+				"trailEffect": {
+					"type": "ParticleEffect",
+					"particles": 1,
+					"baseLength": 0.1,
+					"length": 0.1,
+					"lifetime": 22,
+					"line": true,
+					"randLength": false,
+					"lenFrom": 9,
+					"lenTo": 9,
+					"strokeFrom": 8,
+					"strokeTo": 0,
+					"colorFrom": "2B2C2C",
+					"colorTo": "2B2C2C",
+					"cone": 0
+				},
+				"hitEffect": {
+					"type": "MultiEffect",
+					"effects": [
+						{
+							"type": "WaveEffect",
+							"strokeFrom": 0,
+							"strokeTo": 0,
+							"sizeFrom": 80,
+							"sizeTo": 82,
+							"lifetime": 30,
+							"colorFrom": "FFFFFF50",
+							"colorTo": "FFFFFF"
+						},
+						{
+							"type": "ParticleEffect",
+							"particles": 1,
+							"line": true,
+							"strokeFrom": 2,
+							"strokeTo": 0,
+							"lenFrom": 12,
+							"lenTo": 0,
+							"length": 80,
+							"baseLength": 0,
+							"lifetime": 15,
+							"colorFrom": "FFFFFF50",
+							"colorTo": "FFFFFF"
+						},
+						{
+							"type": "ParticleEffect",
+							"particles": 1,
+							"line": true,
+							"strokeFrom": 3,
+							"strokeTo": 0,
+							"lenFrom": 12,
+							"lenTo": 0,
+							"length": 100,
+							"baseLength": 0,
+							"lifetime": 25,
+							"colorFrom": "FFFFFF50",
+							"colorTo": "FFFFFF"
+						}
+					]
+				}
+			}
+		}
+	},
+	"drawer": {
+		"type": "DrawTurret",
+		"parts": [
+			{
+				"type": "RegionPart",
+				"mirror": false,
+				"x": 0,
+				"y": 0,
+				"suffix": "-K",
+				"layer": 51,
+				"moveX": 0,
+				"moveY": 0,
+				"moves": [
+					{
+						"progress": "recoil",
+						"y": 2.2
+					}
+				]
+			},
+			{
+				"type": "RegionPart",
+				"mirror": false,
+				"x": 0,
+				"y": 0,
+				"suffix": "-TR",
+				"layer": 52,
+				"moveX": 2,
+				"moveY": -2.2,
+				"moves": [
+					{
+						"progress": "recoil",
+						"y": 2.2
+					}
+				]
+			},
+			{
+				"type": "RegionPart",
+				"mirror": false,
+				"x": 0,
+				"y": 0,
+				"suffix": "-TL",
+				"layer": 52,
+				"moveX": -2,
+				"moveY": -2.2,
+				"moves": [
+					{
+						"progress": "recoil",
+						"y": 2.2
+					}
+				]
+			},
+			{
+				"type": "HaloPart",
+				"progress": {
+					"type": "warmup",
+					"op": "delay",
+					"amount": 0.25
+				},
+				"rotateSpeed": 0,
+				"shapeRotation": 0,
+				"y": 40,
+				"sides": 3,
+				"shapes": 1,
+				"color": "FFFFFF",
+				"colorTo": "D4F2FF",
+				"tri": true,
+				"hollow": true,
+				"radius": 0,
+				"radiusTo": 20,
+				"triLength": 500,
+				"triLengthTo": 20,
+				"haloRadius": 0,
+				"haloRotation": 0,
+				"haloRotateSpeed": 0,
+				"layer": 110
+			},
+			{
+				"type": "HaloPart",
+				"progress": {
+					"type": "warmup",
+					"op": "delay",
+					"amount": 0.25
+				},
+				"rotateSpeed": 0,
+				"shapeRotation": 0,
+				"y": 70,
+				"sides": 3,
+				"shapes": 1,
+				"color": "FFFFFF",
+				"colorTo": "D4F2FF",
+				"tri": true,
+				"hollow": true,
+				"radius": 0,
+				"radiusTo": 16,
+				"triLength": 500,
+				"triLengthTo": 16,
+				"haloRadius": 0,
+				"haloRotation": 0,
+				"haloRotateSpeed": 0,
+				"layer": 110
+			},
+			{
+				"type": "HaloPart",
+				"progress": {
+					"type": "warmup",
+					"op": "delay",
+					"amount": 0.25
+				},
+				"rotateSpeed": 0,
+				"shapeRotation": 0,
+				"y": 100,
+				"sides": 3,
+				"shapes": 1,
+				"color": "FFFFFF",
+				"colorTo": "D4F2FF",
+				"tri": true,
+				"hollow": true,
+				"radius": 0,
+				"radiusTo": 12,
+				"triLength": 500,
+				"triLengthTo": 12,
+				"haloRadius": 0,
+				"haloRotation": 0,
+				"haloRotateSpeed": 0,
+				"layer": 110
+			}
+		]
+	},
+	"requirements": [
+		"graphite/1800",
+		"phase-fabric/1500",
+		"钢/1600",
+		"暗金属/1100",
+		"copper/400",
+		"钴/1200"
+	],
+	"category": "turret",
+	"buildCostMultiplier": 0.4,
+	"research": {
+		"parent": "BB飞剑",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "巴尔切特波山麓"
+			}
+		]
+	}
+}

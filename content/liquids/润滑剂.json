@@ -1,0 +1,18 @@
+{
+    "name": "润滑剂",
+    "alwaysUnlocked": false,
+    "lightColor": "CDC673",
+    "color": "CDBE70",
+    "flammability": 0.35,
+    "temperature": 0.1,
+    "heatCapacity": 0.6,
+    "viscosity": 0.05,
+    "boilPoint": 0.5,
+    "explosiveness": 0,
+    "research": "钢",
+    "shownPlanets": [
+        "serpulo",
+        "erekir",
+        "Planzer"
+    ]
+}

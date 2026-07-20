@@ -1,0 +1,7 @@
+{
+"shownPlanets": [ "serpulo","Planzer","Synchronous-orbit-space-station"]
+	"speed": 0.3,
+	"displayedSpeed": 25
+	"bridgeReplacement": "phase-conveyor",
+	"junctionReplacement": "钛交叉器",
+}

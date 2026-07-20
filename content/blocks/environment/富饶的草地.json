@@ -1,0 +1,10 @@
+{
+"type":"Floor",
+"name":"富饶的草地",
+"variants":3,
+"speedMultiplier":1,
+"dragMultiplier":1.1,
+"attributes":{
+"water":0.4
+}
+}

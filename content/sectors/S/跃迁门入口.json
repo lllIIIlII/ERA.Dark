@@ -1,0 +1,21 @@
+{
+	"captureWave": 2
+	"planet": "serpulo",
+	"sector":54,
+	"difficulty": 0,
+	"research": {
+    "parent": "南极前哨站",
+    "objectives": [ 
+      {
+        "type": "SectorComplete",
+        "preset": "南极前哨站"
+      }
+     ]
+    }
+	"alwaysUnlocked": false
+	"addStartingItems": false
+	"overrideLaunchDefaults": false,
+	"isLastSector": true,
+	"allowLaunchSchematics": false,
+	"allowLaunchLoadout": true,
+}

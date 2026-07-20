@@ -1,0 +1,15 @@
+{
+	"type": "Conduit",
+	"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"]
+	"name": "高速管道",
+	"health": 200,
+	"liquidCapacity": 64,
+	"liquidPressure": 10,
+	"requirements": [
+		"结构钢/1",
+		"metaglass/2",
+	],
+	"bridgeReplacement": "phase-conduit",
+	"category": "liquid",
+	"research": "装甲管道"
+}

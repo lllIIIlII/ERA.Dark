@@ -1,0 +1,195 @@
+{
+	"type": "ConsumeGenerator",
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"name": "磁束型核聚变堆",
+	"size": 6,
+	"health": 23000,
+	"liquidCapacity": 300,
+	"itemCapacity": 0,
+	"hasItems": false,
+	"hasLiquids": true,
+	"outputsPower": true,
+	"powerProduction": 1112,
+	"lightColor": "FFFFFF",
+	"destroyBullet": {
+		"speed": 0,
+		"damage": 0,
+		"lifetime": 3600,
+		"despawnEffect": "none",
+		"collidesGround": false,
+		"collidesAir": false,
+		"absorbable": false,
+		"reflectable": false,
+		"hittable": false,
+		"collides": false,
+		"collidesTiles": false,
+		"despawnHit": false,
+		"hitSound": "none",
+		"hitEffect": "none",
+		"trailEffect": "none",
+		"parts": [
+			{
+				"type": "ShapePart",
+				"progress": "warmup",
+				"y": 0,
+				"color": "FFFFFF",
+				"rotateSpeed": 0,
+				"stroke": 5,
+				"strokeTo": 5,
+				"circle": true,
+				"hollow": true,
+				"radius": 400,
+				"radiusTo": 400,
+				"layer": 110
+			}
+		],
+		"shrinkX": 0,
+		"shrinkY": 0,
+		"width": 0,
+		"height": 0,
+		"bulletInterval": 20,
+		"intervalBullets": 1,
+		"intervalRandomSpread": 0,
+		"intervalBullet": {
+			"type": "BasicBulletType",
+			"damage": 0,
+			"buildingDamageMultiplier": 0,
+			"splashDamageRadius": 400,
+			"splashDamage": 0,
+			"ammoMultiplier": 1,
+			"width": 0,
+			"height": 0,
+			"status": "磁崩溃",
+			"statusDuration": 25,
+			"speed": 0,
+			"lifetime": 0,
+			"shrinkX": 0,
+			"shrinkY": 0,
+			"despawnEffect": "none",
+			"hitSound": "none",
+			"hitEffect": {
+				"type": "MultiEffect",
+				"effects": [
+					{
+						"type": "ParticleEffect",
+						"particles": 3,
+						"line": true,
+						"lenFrom": 24,
+						"lenTo": 12,
+						"length": 400,
+						"strokeFrom": 5,
+						"strokeTo": 2.5,
+						"baseLength": 20,
+						"lifetime": 60,
+						"interp": "pow10Out",
+						"sizeInterp": "pow5In",
+						"colorFrom": "2323DC",
+						"colorTo": "2323DC00"
+					},
+					{
+						"type": "ParticleEffect",
+						"particles": 3,
+						"line": true,
+						"lenFrom": 24,
+						"lenTo": 12,
+						"length": 400,
+						"strokeFrom": 5,
+						"strokeTo": 2.5,
+						"baseLength": 20,
+						"lifetime": 60,
+						"interp": "pow10Out",
+						"sizeInterp": "pow5In",
+						"colorFrom": "DC3023",
+						"colorTo": "DC302300"
+					}
+				]
+			},
+			"trailEffect": "none"
+		}
+	},
+	"destroyEffect": {
+		"type": "MultiEffect",
+		"effects": [
+			{
+				"type": "ParticleEffect",
+				"particles": 15,
+				"line": true,
+				"lenFrom": 24,
+				"lenTo": 12,
+				"length": 400,
+				"strokeFrom": 5,
+				"strokeTo": 2.5,
+				"baseLength": 20,
+				"lifetime": 60,
+				"interp": "pow10Out",
+				"sizeInterp": "pow5In",
+				"colorFrom": "2323DC",
+				"colorTo": "2323DC00"
+			},
+			{
+				"type": "ParticleEffect",
+				"particles": 15,
+				"line": true,
+				"lenFrom": 24,
+				"lenTo": 12,
+				"length": 400,
+				"strokeFrom": 5,
+				"strokeTo": 2.5,
+				"baseLength": 20,
+				"lifetime": 60,
+				"interp": "pow10Out",
+				"sizeInterp": "pow5In",
+				"colorFrom": "DC3023",
+				"colorTo": "DC302300"
+			}
+		]
+	},
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidRegion",
+				"drawLiquid": "hydrogen"
+			},
+			{
+				"type": "DrawPlasma",
+				"plasma1": "FFFFFF",
+				"plasma2": "FFFFFF"
+			},
+			"DrawDefault"
+		]
+	},
+	"consumes": {
+		"liquid": "hydrogen/0.5"
+	},
+	"buildCostMultiplier": 1.05,
+	"requirements": [
+		"锰钢/800",
+		"graphite/800",
+		"metaglass/140",
+		"copper/2300",
+		"titanium/2000",
+		"钢/3000",
+		"silicon/1200",
+		"plastanium/50",
+		"钴钢/200"
+	],
+	"category": "power",
+	"research": {
+		"parent": "裂变反应堆",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "奥伊兰盆地"
+			}
+		]
+	}
+}

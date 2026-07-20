@@ -1,0 +1,70 @@
+{
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"health": 700,
+	"armor": 3,
+	"speed": 0.8,
+	"range": 65,
+	"weapons": [
+		{
+			"name": "flamethrower",
+			"reload": 6,
+			"shootY": 2,
+			"rotate": false,
+			"inaccuracy": 0,
+			"alternate": true,
+			"top": false,
+			"shootSound": "shootFlame",
+			"ejectEffect": "none",
+			"cooldownTime": 120,
+			"bullet": {
+				"type": "BulletType",
+				"lifetime": 5.5,
+				"speed": 12,
+				"knockback": 0.42,
+				"damage": 21.3,
+				"ammoMultiplier": 3,
+				"incendAmount": 1,
+				"incendSpread": 8,
+				"incendChance": 0.2,
+				"hittable": false,
+				"absorbable": false,
+				"pierce": true,
+				"makeFire": true,
+				"pierceBuilding": true,
+				"pierceCap": 2,
+				"shootEffect": "shootPyraFlame",
+				"smokeEffect": {
+					"type": "ParticleEffect",
+					"particles": 5,
+					"line": true,
+					"strokeFrom": 1.2,
+					"strokeTo": 0,
+					"lenFrom": 16,
+					"lenTo": 8,
+					"length": 76,
+					"baseLength": 0,
+					"lifetime": 12,
+					"colorFrom": "FFFFFF",
+					"colorTo": "FFE176FF",
+					"cone": 10
+				},
+				"hitEffect": {
+					"type": "ParticleEffect",
+					"particles": 4,
+					"lifetime": 10,
+					"sizeFrom": 3,
+					"sizeTo": 0,
+					"colorFrom": "FF8C00",
+					"colorTo": "FF8C00"
+				},
+				"despawnEffect": "none",
+				"statusDuration": 360,
+				"status": "burning"
+			}
+		}
+	]
+}

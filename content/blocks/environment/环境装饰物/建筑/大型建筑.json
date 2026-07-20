@@ -1,0 +1,12 @@
+{
+  "name":"大型建筑",
+  "type": "Wall",
+  "health":11200,
+  "armor": 120,
+  "size": 5,
+  "buildVisibility": "editorOnly",
+  "requirements": ["钢/300","铁/60"],
+  "variants": 2,
+  "hasShadow": true,
+  "rotate": false
+}

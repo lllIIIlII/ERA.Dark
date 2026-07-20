@@ -1,0 +1,21 @@
+{
+	"captureWave":25
+	"planet": "serpulo",
+	"sector":114,
+	"difficulty": 6,
+	"research": {
+    "parent": "山间谷地",
+    "objectives": [ 
+      {
+        "type": "SectorComplete",
+        "preset": "山间谷地"
+      }
+     ]
+    }
+	"alwaysUnlocked":false
+	"addStartingItems": true
+	"overrideLaunchDefaults": false,
+	"isLastSector": false,
+	"allowLaunchSchematics": true,
+	"allowLaunchLoadout": false
+}

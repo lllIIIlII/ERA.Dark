@@ -1,0 +1,21 @@
+{
+    "name": "水蒸气",
+    "alwaysUnlocked": false,
+    "gas": true,
+    "lightColor": "FFFFFF",
+    "color": "FFFFFF",
+    "flammability": 0,
+    "temperature": 0,
+    "heatCapacity": 0.01,
+    "viscosity": 0.01,
+    "boilPoint": 0,
+    "explosiveness": 0,
+    "coolant": false,
+    "research": "润滑剂",
+    "frames": 9,
+    "shownPlanets": [
+        "serpulo",
+        "erekir",
+        "Planzer"
+    ]
+}

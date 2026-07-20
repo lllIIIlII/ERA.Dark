@@ -1,0 +1,5 @@
+const CoreFrontline = extend(CoreBlock, "前线指挥中心", {
+    canBreak(tile) { return Vars.state.teams.cores(tile.team()).size > 1; },
+    canPlaceOn(tile, team) { return Vars.state.teams.cores(team).size < 6;
+    },
+});

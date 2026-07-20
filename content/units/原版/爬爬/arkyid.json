@@ -1,0 +1,156 @@
+{
+  "shownPlanets": [
+    "serpulo",
+    "Planzer",
+    "Synchronous-orbit-space-station"
+  ],
+  "name": "arkyid",
+  "drag": 0.2,
+  "speed": 0.93,
+  "hitSize": 23,
+  "health": 9500,
+  "armor": 8,
+  "rotateSpeed": 2.7,
+  "legCount": 6,
+  "legMoveSpace": 1,
+  "legPairOffset": 3,
+  "legLength": 30,
+  "legExtension": -15,
+  "legBaseOffset": 10,
+  "stepShake": 1,
+  "legLengthScl": 0.96,
+  "rippleScale": 2,
+  "legSpeed": 0.2,
+  "stepSound": "walkerStep",
+  "stepSoundVolume": 0.85,
+  "stepSoundPitch": 1.1,
+  "legSplashDamage": 32,
+  "legSplashRange": 30,
+  "hovering": true,
+  "shadowElevation": 0.65,
+  "immunities": [
+    "burning",
+    "melting",
+    "tarred"
+  ],
+  "abilities": [
+    {
+      "type": "SpawnDeathAbility",
+      "unit": "spiroct",
+      "amount": 0,
+      "randAmount": 2,
+      "spread": 6
+    }
+  ],
+  "weapons": [
+    {
+      "name": "spiroct-weapon",
+      "shootY": 4,
+      "reload": 7,
+      "ejectEffect": "none",
+      "recoil": 1.8,
+      "rotate": true,
+      "shootSound": "shootSap",
+      "x": 4,
+      "y": 7,
+      "bullet": {
+        "type": "SapBulletType",
+        "sapStrength": 0.5,
+        "length": 145,
+        "damage": 60,
+        "shootEffect": "shootSmall",
+        "hitColor": "bf92f9",
+        "despawnEffect": "none",
+        "width": 0.54,
+        "lifetime": 35,
+        "knockback": -2.8
+      }
+    },
+    {
+      "name": "spiroct-weapon",
+      "shootY": 4,
+      "reload": 7,
+      "ejectEffect": "none",
+      "recoil": 1.8,
+      "rotate": true,
+      "shootSound": "shootSap",
+      "x": 9,
+      "y": 6,
+      "bullet": {
+        "type": "SapBulletType",
+        "sapStrength": 0.5,
+        "length": 145,
+        "damage": 65,
+        "shootEffect": "shootSmall",
+        "hitColor": "bf92f9",
+        "despawnEffect": "none",
+        "width": 0.54,
+        "lifetime": 35,
+        "knockback": -2.8
+      }
+    },
+    {
+      "name": "spiroct-weapon",
+      "shootY": 4,
+      "reload": 7,
+      "ejectEffect": "none",
+      "recoil": 1.8,
+      "rotate": true,
+      "shootSound": "shootSap",
+      "x": 14,
+      "y": 0,
+      "bullet": {
+        "type": "SapBulletType",
+        "sapStrength": 0.5,
+        "length": 145,
+        "damage": 70,
+        "shootEffect": "shootSmall",
+        "hitColor": "bf92f9",
+        "despawnEffect": "none",
+        "width": 0.54,
+        "lifetime": 35,
+        "knockback": -2.8
+      }
+    },
+    {
+      "name": "large-purple-mount",
+      "y": -7,
+      "x": 9,
+      "shootY": 7,
+      "reload": 45,
+      "shake": 3,
+      "rotateSpeed": 2,
+      "ejectEffect": "casing1",
+      "shootSound": "shootArtillerySap",
+      "rotate": true,
+      "shadow": 8,
+      "recoil": 3,
+      "shoot": {
+        "firstShotDelay": 30
+      },
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "hitEffect": "sapExplosion",
+        "despawnSound": "explosionArtilleryShock",
+        "knockback": 1.7,
+        "lifetime": 100,
+        "speed": 5,
+        "width": 19,
+        "height": 19,
+        "collidesTiles": true,
+        "ammoMultiplier": 4,
+        "drag": 0.009,
+        "splashDamageRadius": 120,
+        "splashDamage": 65,
+        "backColor": "bf92f9",
+        "frontColor": "bf92f9",
+        "lightningColor": "bf92f9",
+        "lightning": 4,
+        "lightningLength": 10,
+        "smokeEffect": "shootBigSmoke2",
+        "status": "sapped",
+        "statusDuration": 600
+      }
+    }
+  ]
+}

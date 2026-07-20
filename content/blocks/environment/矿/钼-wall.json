@@ -1,0 +1,13 @@
+{
+    "name": "钼",
+    "type": "OreBlock",
+    "playerUnmineable": false,
+    "itemDrop": "钼",
+    "variants": 3,
+    "mapColor": "B7F1DC",
+    "wallOre": true,
+    "useColor": true,
+    "oreDefault": false,
+    "oreThreshold": 0,
+    "oreScale": 0
+}

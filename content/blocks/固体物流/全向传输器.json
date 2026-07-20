@@ -1,0 +1,72 @@
+{
+	"name": "全向传输器",
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"type": "MassDriver",
+	"size": 1,
+	"health": 90,
+	"armor": 5,
+	"knockback": 0,
+	"hasItems": true,
+	"itemCapacity": 25,
+	"minDistribute": 1,
+	"reload": 12,
+	"rotateSpeed": 1,
+	"bulletSpeed": 36,
+	"bulletLifetime": 60,
+	"shake": 0,
+	"shootEffect": "none",
+	"smokeEffect": "none",
+	"shootSound": "none",
+	"receiveEffect": "none",
+	"outlineIcon": false,
+	"bullet": {
+		"type": "MassDriverBolt",
+		"collidesTiles": false,
+		"width": 0,
+		"height": 0,
+		"despawnEffect": "none",
+		"hitEffect": "none",
+		"part": [
+			{
+				"type": "HaloPart",
+				"progress": {
+					"type": "warmup",
+					"op": "delay",
+					"amount": 0.25
+				},
+				"rotateSpeed": 0,
+				"shapeRotation": 0,
+				"y": 5,
+				"sides": 3,
+				"shapes": 1,
+				"color": "FFFFFF",
+				"colorTo": "E8BF58",
+				"tri": true,
+				"hollow": true,
+				"radius": 0,
+				"radiusTo": 5,
+				"triLength": 60,
+				"triLengthTo": 10,
+				"haloRadius": 0,
+				"haloRotation": 0,
+				"haloRotateSpeed": 0,
+				"layer": 110
+			}
+		]
+	},
+	"range": 360,
+	"consumes": {
+		"power": 5
+	},
+	"requirements": [
+		"plastanium/10",
+		"钴钢/60",
+		"镍铜合金/5"
+	],
+	"research": "钢制传输带",
+	"category": "distribution"
+}

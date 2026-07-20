@@ -1,0 +1,70 @@
+{
+	"type": "RegenProjector",
+	"name": "极速修理机",
+	"canOverdrive": false,
+	"optionalUseTime": 3600,
+	"optionalMultiplier": 5,
+	"effectChance": 0.01,
+	"effect": {
+		"type": "ParticleEffect",
+		"particles": 1,
+		"baseLength": 0,
+		"length": 0,
+		"lifetime": 60,
+		"spin": 5
+		"sizeInterp": "pow3In",
+		"region": "ed-十字",
+		"sizeFrom":6,
+		"sizeTo": 0,
+		"colorFrom": "97FFA8",
+		"colorTo": "97FFA8"
+	},
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawPulseShape",
+				"layer": 110,
+				"stroke": 3,
+				"timeScl": 120,
+				"color": "97FFA8"
+			},
+			{
+				"type": "DrawShape",
+				"layer": 110,
+				"radius": 5,
+				"useWarmupRadius": true,
+				"timeScl": 1.22,
+				"color": "97FFA8"
+			}
+		]
+	},
+	"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"],
+	"health": 600,
+	"armor": 120,
+	"size": 3,
+	"range": 64,
+	"reload": 2.5,
+	"healPercent": 0.01,
+	"phaseBoost": 5,
+	"phaseRangeBoost": 0,
+	"consumes": {
+		"power": 12,
+		"items": {
+			"items": [
+				"结构钢/3"
+			],
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		"titanium/120",
+		"plastanium/80",
+		"surge-alloy/70",
+		"钢/125"
+	],
+	"category": "effect",
+	"research": "铁伞"
+}

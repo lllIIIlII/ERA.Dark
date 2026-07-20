@@ -1,0 +1,23 @@
+{
+    "name": "结构钢",
+    "color": "B5E27B",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "cost": 8.8,
+    "alwaysUnlocked": false,
+    "research": {
+        "parent": "镍铜合金",
+        "shownPlanets": [
+            "serpulo",
+            "Planzer"
+        ],
+        /*"objectives": [
+            {
+                "type": "OnSector",
+                "preset": ""
+            }
+        ]*/
+    }
+}

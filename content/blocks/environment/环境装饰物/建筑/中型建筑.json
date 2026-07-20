@@ -1,0 +1,12 @@
+{
+  "name":"中型建筑",
+  "type": "Wall",
+  "health":5400,
+  "armor": 60,
+  "size": 4,
+  "buildVisibility": "editorOnly",
+  "requirements": ["钢/90","铁/30"],
+  "variants": 3,
+  "hasShadow": true,
+  "rotate": false
+}

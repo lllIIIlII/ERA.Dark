@@ -1,0 +1,34 @@
+mod.ed.update = [#00FFFF]Supernova-68 [#DE5D70]Auspicious2024\n[#00FFFF]The Dark Age \n[#00FFFF]The Dark Age    [yellow]Technology and Magic!
+mod.ed.precautions = [#00FFFF]Mod: The Dark Age\n[white]——————[red]Precautions[white]——————\nPlease do not use archives of global occupation.\nSuggest completing the [gold]planetary launch terminal [white]before playing this mod\n如果你发现游戏内的语言错误，请重新调整语言
+mod.ed.log = [white]——————[gold]Update Log[white]——————\n[#00FFFF]v1.0.0.0:
+gameover = Allow me to cover the retreat, requesting sector bombing...
+gameover.disconnect = Consciousness upload complete.
+gameover.waiting = [accent]Awaiting instruction...
+highscore = [accent]You have surpassed yourself!
+
+load.sound = Loading free music...
+load.map = Loading simulated battle...
+load.image = Viewing image...
+load.content = Loading data...
+load.system = Smart system initializing, engineers please wait patiently...
+load.mod = Reconstructing world...
+load.scripts = Loading scripts...
+
+threat.low = Secure
+threat.medium = Light Erosion
+threat.high = Moderate Erosion
+threat.extreme = Severe Erosion
+threat.eradication = Primary Erosion Zone
+
+difficulty.casual = Novice
+difficulty.easy = Beginner
+difficulty.normal = Normal
+difficulty.hard = Hard
+difficulty.eradication = Experimental Difficulty
+
+coreattack = < The core is under attack! Return to defend immediately! >
+
+planet.sun.name = Astel
+planet.ed-Planzer.name = Planzer
+planet.ed-Daina.name = Daina
+planet.ed-Synchronous-orbit-space-station.name = synchronousOrbitSpaceStation

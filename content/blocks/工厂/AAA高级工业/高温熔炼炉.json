@@ -1,0 +1,53 @@
+{
+	"type": "HeatCrafter",
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"name": "高温熔炼炉",
+	"health": 300,
+	"itemCapacity": 10,
+	"outputItem": "金刚砂/2",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": false,
+	"craftTime": 60,
+	"consumes": {
+		"items": [
+			"graphite/2",
+			"silicon/2"
+		]
+	},
+	"heatRequirement": 10,
+	"overheatScale": 1,
+	"maxEfficiency": 2,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			"DrawDefault"
+		]
+	},
+	"requirements": [
+		"钢/50",
+		"copper/200",
+		"silicon/15"
+	],
+	"category": "crafting",
+	"research": {
+		"parent": "冷凝器",
+		"objectives": [
+			{
+				"type": "OnSector",
+				"preset": "南极前哨站"
+			}
+		]
+	},
+	"ambientSound": "loopFire",
+	"ambientSoundVolume": 0.7
+}

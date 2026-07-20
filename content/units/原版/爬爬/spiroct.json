@@ -1,0 +1,84 @@
+{
+  "shownPlanets": [
+    "serpulo",
+    "Planzer",
+    "Synchronous-orbit-space-station"
+  ],
+  "name": "spiroct",
+  "speed": 0.98,
+  "drag": 0.4,
+  "hitSize": 15,
+  "rotateSpeed": 3,
+  "health": 1400,
+  "legCount": 6,
+  "legLength": 13,
+  "legForwardScl": 0.8,
+  "legMoveSpace": 1.4,
+  "legBaseOffset": 2,
+  "hovering": true,
+  "armor": 5,
+  "shadowElevation": 0.3,
+  "stepSound": "walkerStepSmall",
+  "stepSoundPitch": 0.7,
+  "stepSoundVolume": 0.35,
+  "abilities": [
+    {
+      "type": "SpawnDeathAbility",
+      "unit": "atrax",
+      "amount": 0,
+      "randAmount": 2,
+      "spread": 5
+    }
+  ],
+  "weapons": [
+    {
+      "name": "spiroct-weapon",
+      "shootY": 4,
+      "reload": 10,
+      "ejectEffect": "none",
+      "recoil": 2,
+      "rotate": true,
+      "shootSound": "shootSap",
+      "x": 8.5,
+      "y": -1.5,
+      "shoot": {
+        "type": "ShootPattern",
+        "shots": 3,
+        "firstShotDelay": 5,
+        "shotDelay": 5
+      },
+      "bullet": {
+        "type": "SapBulletType",
+        "sapStrength": 0.5,
+        "length": 85,
+        "damage": 30,
+        "shootEffect": "shootSmall",
+        "hitColor": "bf92f9",
+        "despawnEffect": "none",
+        "width": 0.54,
+        "lifetime": 35,
+        "knockback": -2
+      }
+    },
+    {
+      "name": "mount-purple-weapon",
+      "reload": 30,
+      "rotate": true,
+      "x": 4,
+      "y": 3,
+      "shootSound": "shootSap",
+      "bullet": {
+        "type": "SapBulletType",
+        "sapStrength": 0.8,
+        "length": 60,
+        "damage": 15,
+        "shootEffect": "shootSmall",
+        "hitColor": "bf92f9",
+        "despawnEffect": "none",
+        "width": 0.4,
+        "lifetime": 25,
+        "knockback": -1.5
+      }
+    }
+  ]
+}

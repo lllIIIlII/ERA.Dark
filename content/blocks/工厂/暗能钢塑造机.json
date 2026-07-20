@@ -1,0 +1,84 @@
+{
+	"type": "GenericCrafter",
+	"name": "暗能钢塑造机",
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"health": 1050,
+	"itemCapacity": 15,
+	"liquidCapacity": 360,
+	"outputItem": "暗能钢/3",
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"craftTime": 30,
+	"consumes": {
+		"power": 4.28,
+		"liquid": "slag/0.3",
+		"items": [
+			"钢/1",
+			"暗金属/2",
+			"phase-fabric/1"
+		]
+	},
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			"DrawDefault",
+			{
+				"type": "DrawRegion",
+				"suffix": "-转",
+				"spinSprite": true,
+				"rotateSpeed": 3
+			},
+			{
+				"type": "DrawFlame",
+				"flameRadius": 0,
+				"flameRadiusIn": 0,
+				"flameRadiusMag": 0,
+				"flameRadiusInMag": 0,
+				"flameColor": "F2E770"
+			}
+		]
+	},
+	"updateEffect": {
+		"type": "MultiEffect",
+		"effects": [
+			{
+				"type": "WaveEffect",
+				"sizeFrom": 0,
+				"sizeTo": 0,
+				"colorFrom": "CDC67360",
+				"colorTo": "000000",
+				"strokeFrom": 10,
+				"strokeTo": 0,
+				"lifetime": 45
+			},
+			{
+				"type": "hitEmpSpark",
+				"particles": 10,
+				"sizeFrom": 3,
+				"sizeTo": 0,
+				"length": 20,
+				"baseLength": 15,
+				"colorFrom": "E8E8E860",
+				"colorTo": "ffffff",
+				"lifetime": 20
+			}
+		]
+	},
+	"requirements": [
+		"plastanium/100",
+		"暗金属/80",
+		"copper/150",
+		"lead/100",
+		"铁/55"
+	],
+	"category": "crafting",
+	"research": "暗金属催化池",
+	"ambientSound": "loopMachine2",
+	"ambientSoundVolume": 0.7
+}

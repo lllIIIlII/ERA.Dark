@@ -1,0 +1,79 @@
+{
+	"type": "GenericCrafter",
+	"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"]
+	"name": "强作用力压差封装机",
+	"health": 3000,
+	"craftTime":120,
+	"itemCapacity":48,
+	"outputLiquid": "STAL-加速流体/0.4"
+	"size": 4,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawPlasma",
+				"plasma0": "B894F2",
+				"plasma1": "B894F2",
+				"plasma2": "B894F2",
+				"plasma3": "B894F2"
+			},
+			{
+				"type": "DrawLiquidRegion",
+				"drawLiquid": "STAL-加速流体"
+			},
+			{
+				"type": "DrawCircles",
+				"amount":1, 
+				"sides": 15,
+				"strokeMin": 0.2,
+				"strokeMax": 1, 
+				"timeScl": 360,
+				"radius": 5,
+			},
+			"DrawDefault"
+	]
+},
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"hasPower": true,
+	"liquidCapacity": 90,
+	"updateEffect": {
+	"type": "ParticleEffect",
+	"particles": 3,
+	"sizeFrom": 8
+	"sizeTo": 0,
+	"length": 60,
+	"baseLength": 10,
+	"region":"ed-圈"
+	"interp": "pow5Out",
+	"sizeInterp": "bounceOut",
+	"lifetime": 60,
+	"colorFrom": "00FFFF",
+	"colorTo": "FFFFFF",
+	},
+	"consumes": {
+		"power": 2396,
+		"liquid": "water/2.5"
+		"items": [
+		"空间节点/8"
+		]
+	},
+	"requirements": [
+		"plastanium/1500",
+		"metaglass/700",
+		"silicon/3000",
+		"titanium/500",
+		"graphite/850",
+		"phase-fabric/1200",
+		"钢/2000",
+		"钴钢/3200"
+		"空间节点/300"
+	],
+	"category": "crafting",
+	"research": "空间造物"
+}

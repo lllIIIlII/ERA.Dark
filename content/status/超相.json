@@ -1,0 +1,31 @@
+{
+	"name": "超相",
+	"color": "FFD494",
+	"speedMultiplier": 2.25,
+	"healthMultiplier": 0.4,
+	"reloadMultiplier": 1.85,
+	"damageMultiplier": 0.45,
+	"effectChance": 0.05,
+	"effect": {
+	"type": "MultiEffect",
+	"effects": [
+	{
+	"type": "ParticleEffect",
+	"particles": 1,
+	"region":"ed-圈"
+	"interp": "fastSlow",
+	"sizeFrom": 15
+	"sizeTo": 0,
+	"length": 0,
+	"baseLength": 0,
+	"lifetime": 60,
+	"colorFrom": "FFD494",
+	"colorTo": "C1A070",
+	}
+]
+}
+	"transitionDamage": 34000,
+    "affinities": [
+    "溃解"
+    ],
+}

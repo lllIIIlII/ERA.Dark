@@ -1,0 +1,33 @@
+{
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"health": 210,
+	"boostMultiplier": 1.2,
+	"engineOffset": 5,
+	"engineSize": 2,
+	"speed": 0.7,
+	"canBoost": true,
+	"weapons": [
+		{
+			"name": "large-weapon",
+			"reload": 8,
+			"x": 4.5,
+			"y": -0.5,
+			"rotate": false,
+			"inaccuracy": 0,
+			"alternate": true,
+			"top": false,
+			"ejectEffect": "casing1",
+			"bullet": {
+				"damage": 10,
+				"speed": 9,
+				"lifetime": 18,
+				"width": 5,
+				"height": 8
+			}
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "轻盈",
+	"color": "00FFFF",
+	"speedMultiplier": 1.25,
+	"healthMultiplier": 1,
+	"reloadMultiplier": 1,
+	"dragMultiplier": 0.5,
+	"opposites": [
+	"延迟"
+	],
+}

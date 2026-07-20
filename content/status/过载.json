@@ -1,0 +1,25 @@
+{
+	"name": "功率强化",
+	"color": "FFE92C",
+	"speedMultiplier": 1.3,
+	"healthMultiplier": 1.35,
+	"reloadMultiplier": 1.4,
+	"damageMultiplier": 1.45,
+	"buildSpeedMultiplier": 3,
+	"dragMultiplier": 0.7,
+	"effectChance": 0.05,
+	"damage": -29,
+	"effect": {
+		"type": "ParticleEffect",
+		"particles": 1,
+		"baseLength": 0,
+		"length": 40,
+		"lifetime": 30,
+		"interp": "fastSlow",
+		"region": "ed-菱形",
+		"sizeFrom": 10,
+		"sizeTo": 0,
+		"colorFrom": "FFE92C",
+		"colorTo": "FFE92C50"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"captureWave": 45,
+	"planet": "Planzer",
+	"sector": 1,
+	"difficulty": 1,
+	"research": {
+    "parent": "overgrowth",
+    "objectives": [ 
+      {
+        "type": "SectorComplete",
+        "preset": "overgrowth"
+      }
+     ]
+    }
+    "alwaysUnlocked": false
+	"addStartingItems": true
+}

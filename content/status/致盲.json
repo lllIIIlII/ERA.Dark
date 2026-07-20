@@ -1,0 +1,12 @@
+{
+	"name": "致盲",
+	"color": "000000",
+	"speedMultiplier": 0.9,
+	"healthMultiplier": 1.12,
+	"reloadMultiplier": 0.01,
+    "damageMultiplier": 1,
+	"effectChance": 1,
+	"opposites": [
+	"生命提升"
+	],
+}

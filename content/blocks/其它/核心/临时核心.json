@@ -1,0 +1,24 @@
+{
+	"research": {
+		"root": true,
+		"name": "普兰泽工业"
+	},
+	"requirements": [
+		"copper/2000",
+		"lead/1500",
+		"silicon/750"
+	],
+	"unitType": "alpha",
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"alwaysUnlocked": true,
+	"armor": 28,
+	"health": 1500,
+	"itemCapacity": 1500,
+	"size": 3,
+	"unitCapModifier": 3,
+	"category": "effect"
+}
