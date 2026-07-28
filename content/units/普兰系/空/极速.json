@@ -7,6 +7,9 @@
     "drag": 0.07,
     "accel": 0.7,
     "trailLength": 45,
+    "engineOffset": 15,
+    "engineSize": 4
+    "engineLayer": 110.1
     "immunities": [
         "tarred",
         "slow",
@@ -19,14 +22,6 @@
     ],
     "targetAir": true,
     "circleTarget": true,
-    "engines": [
-        {
-            "x": 0,
-            "y": -17,
-            "radius": 5,
-            "rotation": 90
-        }
-    ],
     "research": "鬼影",
     "requirements": {
         "block": "multiplicative-reconstructor",

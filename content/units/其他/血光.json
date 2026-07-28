@@ -10,6 +10,13 @@
   "drag": 0.03,
   "accel": 0.1,
   "rotateSpeed": 0.08,
+  "flyingLayer": 125,
+  "physics": false,
+  "createWreck": false,
+  "createScorch": false,
+  "coreUnitDock": true,
+  "hittable": false,
+  "targetable": false,
   "immunities": [
     "blasted",
     "burning",

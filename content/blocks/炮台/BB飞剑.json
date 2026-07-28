@@ -71,19 +71,7 @@
 		"trailLength": 40,
 		"trailWidth": 2,
 		"trailColor": "FFFFFF88",
-		"trailChance": 0.1,
-		"trailInterval": 32,
-		"trailEffect": {
-			"type": "ParticleEffect",
-			"particles": 3,
-			"length": 16,
-			"baseLength": 1,
-			"lifetime": 30,
-			"colorFrom": "E3E3E380",
-			"colorTo": "E3E3E380",
-			"sizeFrom": 3,
-			"sizeTo": 0
-		}
+		"despawnEffect": "none",
 	},
 	"drawer": {
 		"type": "DrawTurret",
@@ -227,7 +215,7 @@
 	],
 	"category": "turret",
 	"research": {
-		"parent": "临时核心",
+		"parent": "BA贯穿",
 		"objectives": [
 			{
 				"type": "OnSector",

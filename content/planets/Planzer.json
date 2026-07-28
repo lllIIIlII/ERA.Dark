@@ -17,7 +17,7 @@
     "allowSelfSectorLaunch": false,
     "defaultCore": "core-shard",
     "sectorSeed": 690,
-    "startSector": 1,
+    "startSector": 186,
     "sectorSize": 3,
     "clearSectorOnLose": true,
     "allowSectorInvasion": true,
@@ -115,15 +115,28 @@
             {
                 "type": "NoiseMesh",
                 "planet": "Planzer",
-                "seed": 776,
-                "color1": "FFFFFF",
+                "seed": 733,
+                "color1": "636363",
                 "color2": "636363",
                 "divisions": 7,
-                "radius": 0.45,
+                "radius": 0.52,
+                "octaves": 8,
+                "persistence": 0.48,
+                "scale": 0.53,
+                "mag": 5
+            },
+            {
+                "type": "NoiseMesh",
+                "planet": "Planzer",
+                "seed": 789,
+                "color1": "8C8C8C",
+                "color2": "8C8C8C",
+                "divisions": 7,
+                "radius": 0.54,
                 "octaves": 8,
                 "persistence": 0.6,
-                "scale": 0.6,
-                "mag": 7
+                "scale": 0.57,
+                "mag": 4
             },
             {
                 "type": "NoiseMesh",

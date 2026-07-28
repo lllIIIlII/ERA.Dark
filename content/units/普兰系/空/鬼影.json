@@ -10,23 +10,18 @@
     "speed": 4,
     "drag": 0.06,
     "accel": 0.6,
+    "flyingLayer": 99
     "immunities": [
         "tarred",
         "slow"
     ],
     "hitSize": 10,
     "flying": true,
-    "lowAltitude": true,
     "health": 450,
     "armor": 11,
-    "engines": [
-        {
-            "x": 0,
-            "y": -7,
-            "radius": 5,
-            "rotation": 90
-        }
-    ],
+    "engineOffset": 7,
+    "engineSize": 5,
+    "engineLayer": 98,
     "research": "敏捷",
     "requirements": {
         "block": "additive-reconstructor",
@@ -55,6 +50,7 @@
                         "lancerLaserChargeBegin"
                     ]
                 },
+                "layer": 100
                 "lightningSpacing": 25,
                 "lightningLength": 5,
                 "lightningDelay": 0.6,
@@ -97,7 +93,8 @@
                 "speed": 20,
                 "sprite": "circle-bullet",
                 "trailLength": 4,
-                "trailWidth": 2
+                "trailWidth": 2,
+                "layer": 100
             }
         },
         {
@@ -112,6 +109,7 @@
             "alternate": false,
             "bullet": {
                 "damage": 25,
+                "layer": 95
                 "lifetime": 180,
                 "width": 6,
                 "height": 18,
@@ -155,20 +153,7 @@
                 },
                 "trailLength": 40,
                 "trailWidth": 2,
-                "trailColor": "FFFFFF88",
-                "trailChance": 1,
-                "trailInterval": 16,
-                "trailEffect": {
-                    "type": "ParticleEffect",
-                    "particles": 3,
-                    "length": 16,
-                    "baseLength": 1,
-                    "lifetime": 30,
-                    "colorFrom": "E3E3E380",
-                    "colorTo": "E3E3E380",
-                    "sizeFrom": 3,
-                    "sizeTo": 0
-                }
+                "trailColor": "FFFFFF88"
             }
         }
     ]

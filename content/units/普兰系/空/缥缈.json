@@ -6,6 +6,7 @@
     "speed": 4.2,
     "drag": 0.04,
     "accel": 0.3,
+    "flyingLayer": 99
     "lowAltitude": true,
     "immunities": [
         "tarred", "slow",
@@ -16,14 +17,9 @@
     "flying": true,
     "health": 12550,
     "armor": 25,
-    "engines": [
-        {
-            "x": 0,
-            "y": -14,
-            "radius": 7,
-            "rotation": 90
-        }
-    ],
+    "engineOffset": 14,
+    "engineSize": 7,
+    "engineLayer": 98,
     "research": "极速",
     "requirements": {
         "block": "exponential-reconstructor",
@@ -54,7 +50,7 @@
             "x": 0,
             "y": 0,
             "recoil": 3,
-            "shootX": 20,
+            "shootX": 16,
             "shootY": 25,
             "reload": 100,
             "top": false,
@@ -72,6 +68,7 @@
                         "lancerLaserChargeBegin"
                     ]
                 },
+                "layer": 100,
                 "lightningSpacing": 20,
                 "lightningLength": 10,
                 "lightningDelay": 0.4,
@@ -97,7 +94,7 @@
             "shootX": 0,
             "shootY": 3,
             "reload": 20,
-            "top": false,
+            "top": true,
             "rotate": true,
             "alternate": true,
             "mirror": true,
@@ -106,6 +103,7 @@
                 "shotDelay": 10
             },
             "bullet": {
+            "layer": 100,
                 "damage": 40,
                 "lifetime": 20,
                 "width": 6,
@@ -129,7 +127,7 @@
             "shootSound": "shootCyclone",
             "alternate": false,
             "bullet": {
-                "layer": 49,
+                "layer": 95,
                 "damage": 145,
                 "lifetime": 60,
                 "width": 15,
@@ -150,7 +148,7 @@
                     "effects": [
                         {
                             "type": "ParticleEffect",
-                            "particles": 10,
+                            "particles": 5,
                             "sizeFrom": 8,
                             "sizeTo": 0,
                             "length": 55,
@@ -161,7 +159,7 @@
                         },
                         {
                             "type": "ParticleEffect",
-                            "particles": 20,
+                            "particles": 6,
                             "sizeFrom": 9,
                             "sizeTo": 0,
                             "length": 60,
@@ -175,18 +173,19 @@
                 "trailLength": 40,
                 "trailWidth": 2,
                 "trailColor": "FFFFFF88",
-                "trailChance": 1,
+                "trailChance": 0.1,
                 "trailInterval": 16,
                 "trailEffect": {
                     "type": "ParticleEffect",
-                    "particles": 3,
+                    "particles": 1,
                     "length": 16,
                     "baseLength": 1,
                     "lifetime": 30,
                     "colorFrom": "E3E3E380",
                     "colorTo": "E3E3E380",
                     "sizeFrom": 3,
-                    "sizeTo": 0
+                    "sizeTo": 0,
+                    "layer": 95
                 }
             }
         }

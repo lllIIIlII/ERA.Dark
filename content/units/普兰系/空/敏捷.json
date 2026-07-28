@@ -9,25 +9,14 @@
     "trailLength": 10,
     "targetAir": true,
     "circleTarget": true,
-    "engines": [
-        {
-            "x": 0,
-            "y": -5,
-            "radius": 3,
-            "rotation": 90
-        }
-    ],
     "research": "flare",
-    "ammoType": {
-        "type": "PowerAmmoType",
-        "totalPower": 700
-    },
     "hitSize": 5,
     "flying": true,
     "health": 150,
     "armor": 5,
-    "engineOffset": 2,
-    "engineSize": 1,
+    "engineOffset": 5,
+    "engineSize": 3,
+    "engineLayer": 110.1
     "itemCapacity": 0,
     "weapons": [
         {
@@ -38,6 +27,7 @@
             "shootX": -1.5,
             "shootY": 0.8,
             "reload": 60,
+            "layerOffset": -5,
             "top": false,
             "rotate": 1,
             "ejectEffect": "casing1",
@@ -62,7 +52,8 @@
                 "width": 3,
                 "height": 3,
                 "speed": 20,
-                "sprite": "circle-bullet"
+                "sprite": "circle-bullet",
+                "layer": 109
             }
         }
     ]
