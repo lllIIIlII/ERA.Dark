@@ -8,7 +8,7 @@
     "objectives": [ 
       {
         "type": "SectorComplete",
-        "preset": "南极前哨站"
+        "preset": "planetaryTerminal"
       }
      ]
     }

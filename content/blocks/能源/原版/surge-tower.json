@@ -1,3 +1,4 @@
 {
-"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"]
+"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"],
+"laserRange": 240
 }

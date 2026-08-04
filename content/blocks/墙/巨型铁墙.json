@@ -3,7 +3,7 @@
 	"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"]
 	"type": "Wall",
 	"health": 10200,
-	"armor":14,
+	"armor":200,
 	"size": 3,
 	"absorbLasers":false,
 	"requirements": [

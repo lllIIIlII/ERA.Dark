@@ -40,6 +40,7 @@
                 "splashDamage": 300,
                 "splashDamageRadius": 40,
                 "lifetime": 1,
+                "speed": 550,
                 "repeat": 1,
                 "chargeEffect": {
                     "type": "MultiEffect",

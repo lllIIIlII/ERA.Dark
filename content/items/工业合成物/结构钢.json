@@ -6,18 +6,18 @@
     "radioactivity": 0,
     "charge": 0,
     "cost": 8.8,
+    "shownPlanets": [
+        "serpulo",
+        "Planzer"
+    ],
     "alwaysUnlocked": false,
     "research": {
         "parent": "镍铜合金",
-        "shownPlanets": [
-            "serpulo",
-            "Planzer"
-        ],
-        /*"objectives": [
+        "objectives": [
             {
                 "type": "OnSector",
-                "preset": ""
+                "preset": "白虹贯墨"
             }
-        ]*/
+        ]
     }
 }

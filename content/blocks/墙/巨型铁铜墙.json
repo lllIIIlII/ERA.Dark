@@ -2,7 +2,7 @@
 	"name": "巨型铁铜墙",
 	"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"]
 	"type": "Wall",
-	"health": 4990,
+	"health": 7990,
 	"armor":125,
 	"size": 3,
 	"absorbLasers":false,

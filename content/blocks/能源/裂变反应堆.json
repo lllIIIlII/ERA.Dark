@@ -106,7 +106,7 @@
 			},
 			{
 				"type": "ParticleEffect",
-				"region": "黑暗纪元-新星",
+				"region": "ed-新星",
 				"particles": 1,
 				"spin": 2,
 				"sizeFrom": 400,

@@ -4,7 +4,7 @@
 	"canOverdrive": false,
 	"optionalUseTime": 3600,
 	"optionalMultiplier": 5,
-	"effectChance": 0.01,
+	"effectChance": 0.001,
 	"effect": {
 		"type": "ParticleEffect",
 		"particles": 1,
@@ -46,7 +46,7 @@
 	"size": 3,
 	"range": 64,
 	"reload": 2.5,
-	"healPercent": 0.01,
+	"healPercent": 0.03,
 	"phaseBoost": 5,
 	"phaseRangeBoost": 0,
 	"consumes": {

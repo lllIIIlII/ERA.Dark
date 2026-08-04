@@ -32,7 +32,6 @@
   "shadowElevation": 0.4,
   "targetAir": false,
   "alwaysShootWhenMoving": true,
-  "research": "crawler",
   "immunities": [
     "burning"
   ],
@@ -154,5 +153,14 @@
         "spawnUnit": "游离"
       }
     }
-  ]
+  ],
+  "research": {
+		"parent": "crawler",
+		"objectives": [
+			{
+				"type": "OnSector",
+				"preset": "奥伊兰盆地"
+			}
+		]
+	}
 }

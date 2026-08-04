@@ -4,11 +4,11 @@
 	"sector": 186,
 	"difficulty": 1,
 	"research": {
-    "parent": "overgrowth",
+    "parent": "planetaryTerminal",
     "objectives": [ 
       {
         "type": "SectorComplete",
-        "preset": "overgrowth"
+        "preset": "planetaryTerminal"
       }
      ]
     }

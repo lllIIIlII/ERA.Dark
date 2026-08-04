@@ -12,7 +12,7 @@
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
-		//"DrawDefault",
+		"DrawDefault",
 			{
 				"type": "DrawPower",
 				"emptyLightColor": "F8C266",
