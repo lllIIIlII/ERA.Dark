@@ -1,4 +1,4 @@
-# ERA.Dark 1.0.6.0
+# ERA.Dark
 
 前言：ERA.Dark 作为TheDarkAge的第二代，更适合配置较差与喜欢工业的玩家。
 注意，不要与TheDarkAge同时加载，可能会有意想不到的bug
