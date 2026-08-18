@@ -1,0 +1,33 @@
+{
+	"captureWave": 61,
+	"planet": "Planzer",
+	"sector": 238,
+	"difficulty": 3,
+	"research": {
+    "parent": "白虹贯墨",
+    "objectives": [ 
+      {
+        "type": "SectorComplete",
+        "preset": "白虹贯墨"
+      },
+      {
+        "type": "Research",
+        "content": "BC九幽"
+      },
+      {
+        "type": "Research",
+        "content": "铁铬合金"
+      },
+      {
+        "type": "Research",
+        "content": "advanced-launch-pad"
+      },
+      {
+        "type": "Research",
+        "content": "landing-pad"
+      }
+     ]
+    }
+	"alwaysUnlocked":false
+	"addStartingItems": true
+}

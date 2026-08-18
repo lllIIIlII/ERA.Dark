@@ -1,0 +1,41 @@
+{
+	"captureWave": 0,
+	"planet": "Planzer",
+	"sector": 206,
+	"difficulty": 2,
+	"research": {
+    "parent": "奥伊兰盆地",
+    "objectives": [ 
+      {
+        "type": "SectorComplete",
+        "preset": "奥伊兰盆地"
+      },
+      {
+        "type": "Research",
+        "content": "燎原"
+      },
+      {
+        "type": "Research",
+        "content": "reign"
+      },
+      {
+        "type": "Research",
+        "content": "corvus"
+      },
+      {
+        "type": "Research",
+        "content": "toxopid"
+      },
+      {
+        "type": "Research",
+        "content": "eclipse"
+      },
+      {
+        "type": "Research",
+        "content": "oct"
+      }
+     ]
+    }
+	"alwaysUnlocked":false
+	"addStartingItems": true
+}

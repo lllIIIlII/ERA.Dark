@@ -1,0 +1,70 @@
+{
+	"name": "金属精炼厂",
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"health": 2300,
+	"armor": 6,
+	"itemCapacity": 70,
+	"liquidCapacity": 240,
+	"size": 5,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"configurable": true,
+	"saveConfig": true,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			"DrawDefault",
+			{
+				"type": "DrawFlame",
+				"flameRadius": 0,
+				"flameRadiusIn": 0,
+				"flameRadiusMag": 0,
+				"flameRadiusInMag": 0,
+				"flameColor": "F2E770"
+			}
+		]
+	},
+	"updateEffect": {
+		"type": "ParticleEffect",
+		"particles": 1,
+		"sizeFrom": 4.8,
+		"sizeTo": 0,
+		"length": 0,
+		"baseLength": 50,
+		"interp": "pow5Out",
+		"sizeInterp": "pow10In",
+		"region": "ed-圈",
+		"lifetime": 45,
+		"colorFrom": "FF8E4D",
+		"colorTo": "FF8E4D"
+	},
+	"requirements": [
+		"copper/300",
+		"silicon/600",
+		"plastanium/400",
+		"钴钢/180",
+		"锰钢/230",
+		"镍铜合金/300",
+		"钼/400",
+		"钢/500"
+	],
+	"category": "crafting",
+	"research": {
+		"parent": "集成炼钢厂",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "白虹贯墨"
+			}
+		]
+	}
+}

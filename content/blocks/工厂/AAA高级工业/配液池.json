@@ -1,0 +1,60 @@
+{
+	"name": "配液池",
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"health": 300,
+	"itemCapacity": 20,
+	"liquidCapacity": 270,
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"configurable": true,
+	"saveConfig": true,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "盐酸"
+			},
+			"DrawDefault"
+		]
+	},
+	"craftEffect": {
+		"type": "ParticleEffect",
+		"particles": 1,
+		"sizeFrom": 4,
+		"sizeTo": 0,
+		"length": 10,
+		"baseLength": 0,
+		"interp": "pow5Out",
+		"sizeInterp": "pow10In",
+		"region": "ed-彗星",
+		"lifetime": 30,
+		"colorFrom": "FFFFFF",
+		"colorTo": "FFFFFF"
+	},
+	"requirements": [
+		"镍/180",
+		"graphite/100",
+		"钴钢/30"
+	],
+	"category": "crafting",
+	"research": {
+		"parent": "集成炼钢厂",
+		"objectives": [
+			{
+				"type": "OnSector",
+				"preset": "白虹贯墨"
+			}
+		]
+	}
+}

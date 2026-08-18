@@ -1,0 +1,12 @@
+{
+    "name": "不锈钢",
+    "color": "D9D9D9",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "hardness": 8,
+    "cost": 12,
+    "alwaysUnlocked":false,
+    "research": "铁铬合金",
+    "shownPlanets": [ "serpulo","Planzer" ]
+}

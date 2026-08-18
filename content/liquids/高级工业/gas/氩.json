@@ -1,0 +1,20 @@
+{
+    "name": "氯",
+    "alwaysUnlocked": false,
+    "gas": true,
+    "lightColor": "3A00FF",
+    "color": "3A00FF",
+    "flammability": 0,
+    "temperature": 0,
+    "heatCapacity": 0,
+    "viscosity": 0,
+    "boilPoint": 0,
+    "explosiveness": 0,
+    "coolant": false,
+    "research": "氯",
+    "shownPlanets": [
+        "serpulo",
+        "erekir",
+        "Planzer"
+    ]
+}

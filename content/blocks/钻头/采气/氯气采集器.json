@@ -1,0 +1,69 @@
+{
+  "type": "AttributeCrafter",
+  "attribute": "氯",
+  "name": "氯气采集器",
+  "size": 3,
+  "health": 300,
+  "shownPlanets": [
+    "serpulo",
+    "Planzer",
+    "Synchronous-orbit-space-station"
+  ],
+  "hasLiquids": true,
+  "outputLiquid": "氯/0.3",
+  "consumes": {
+	"power": 1.5,
+	},
+  "liquidCapacity": 60,
+  "displayEfficiencyScale": 1,
+  "baseEfficiency": 0,
+  "squareSprite": false,
+  "minEfficiency": 1,
+  "category": "production",
+  "research": {
+    "parent": "深孔钻机",
+    "objectives": [
+      {
+        "type": "Research",
+        "content": "锰钢"
+      }
+    ]
+  },
+  "requirements": [
+    "graphite/90",
+    "silicon/60",
+    "钢/100",
+    "钼/5",
+    "铬/50"
+  ],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "氯",
+        "padding": 3,
+        "alpha": 0.75
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-Bz",
+        "spinSprite": false,
+        "rotateSpeed": 1.8
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-z",
+        "spinSprite": false,
+        "rotateSpeed": -1.8
+      },
+      "DrawDefault"
+    ]
+  },
+  "ambientSound": "loopConveyor",
+  "ambientSoundVolume": 0.05
+}

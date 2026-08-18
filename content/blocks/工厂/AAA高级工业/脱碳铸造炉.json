@@ -1,0 +1,73 @@
+{
+	"name": "脱碳铸造炉",
+	"type": "HeatCrafter",
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"health": 900,
+	"itemCapacity": 60,
+	"liquidCapacity": 60,
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"configurable": true,
+	"saveConfig": true,
+	"craftTime": 60,
+	"consumes": {
+		"items": [
+			"铁铬合金/4",
+			"磨砂金属粉末/1"
+		],
+		"liquid": "氩/0.5"
+	},
+	"heatRequirement": 60,
+	"overheatScale": 1,
+	"maxEfficiency": 2,
+	"outputItem": "不锈钢/6",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			"DrawDefault",
+			"DrawGlowRegion"
+		]
+	},
+	"craftEffect": {
+		"type": "ParticleEffect",
+		"particles": 1,
+		"sizeFrom": 4,
+		"sizeTo": 0,
+		"length": 30,
+		"baseLength": 0,
+		"interp": "pow5Out",
+		"sizeInterp": "pow10In",
+		"region": "ed-圆矩",
+		"lifetime": 30,
+		"colorFrom": "6F8892",
+		"colorTo": "6F8892"
+	},
+	"requirements": [
+		"镍铜合金/180",
+		"plastanium/30",
+		"钴钢/200",
+		"钢/200"
+	],
+	"category": "crafting",
+	"ambientSound": "loopGrind",
+	"ambientSoundVolume": 0.8,
+	"research": {
+		"parent": "金属精炼厂",
+		"objectives": [
+			{
+				"type": "Research",
+				"content": "铁铬合金"
+			}
+		]
+	}
+}

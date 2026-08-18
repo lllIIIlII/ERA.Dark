@@ -1,0 +1,12 @@
+{
+    "name": "精炼铜",
+    "color": "C7A382",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "hardness": 5,
+    "cost": 9.5,
+    "alwaysUnlocked":false,
+    "research": "结构钢",
+    "shownPlanets": [ "serpulo","Planzer" ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "盐酸",
+    "alwaysUnlocked": false,
+    "lightColor": "A2D1B2",
+    "color": "A2D1B2",
+    "flammability": 0,
+    "temperature": 0.5,
+    "heatCapacity": 0.3,
+    "viscosity": 0.6,
+    "boilPoint": 0.4,
+    "explosiveness": 0,
+    "research": "氯",
+    "shownPlanets": [
+        "serpulo",
+        "erekir",
+        "Planzer"
+    ]
+}
