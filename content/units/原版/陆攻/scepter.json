@@ -28,7 +28,7 @@
 			"shootY": 10,
 			"rotate": false,
 			"inaccuracy": 3,
-			"shootSound": "shootBig",
+			"shootSound": "shootCleroi",
 			"alternate": true,
 			"top": false,
 			"ejectEffect": "casing4",

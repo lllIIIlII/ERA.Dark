@@ -14,10 +14,9 @@
     "hasItems": true,
     "canOverdrive": true,
     "drillTime": 60,
-    "fogRadius":7.5
+    "fogRadius": 7.5,
     "range": 6,
     "laserWidth": 0.5,
-    "liquidBoostIntensity": 1.7,
     "consumes": {
         "power": 1.2,
         "liquid": {

@@ -26,7 +26,7 @@
 	"hasPower": true,
 	"liquidCapacity": 180,
 	"updateEffect": {
-	"type":"hitEmpSpark",
+	"type": "ParticleEffect",
 	"particles":4,
 	"sizeFrom":5,
 	"sizeTo":0,

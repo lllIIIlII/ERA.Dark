@@ -22,11 +22,11 @@
     "clearSectorOnLose": true,
     "allowSectorInvasion": true,
     "allowLaunchToNumbered": false,
-    "allowLaunchSchematics": false
-    "allowLaunchLoadout": true
+    "allowLaunchSchematics": false,
+    "allowLaunchLoadout": true,
     "rules": {
-    "worldProcessorPlayerLink": true
-    }
+        "worldProcessorPlayerLink": true
+    },
     "radius": 0.9,
     "orbitSpacing": 25,
     "cloudMesh": [
@@ -166,7 +166,5 @@
             }
         ]
     },
-    "orbitalParent": "Daina",
-    "solarSystem": "Daina",
-    "hiddenItems": []
+    "solarSystem": "Daina"
 }

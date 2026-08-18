@@ -39,7 +39,6 @@
       "type": "ShieldArcAbility",
       "whenShooting": false,
       "chanceDeflect": 35,
-      "pushForce": 0.01,
       "pushUnits": true,
       "radius": 75,
       "width": 30,

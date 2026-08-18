@@ -208,7 +208,7 @@
             },
             "xRand": 7,
             "bullet": {
-            "layer": 124
+            "layer": 120.1,
                 "damage": 451,
                 "lifetime": 60,
                 "width": 15,

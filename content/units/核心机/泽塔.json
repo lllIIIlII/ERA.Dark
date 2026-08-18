@@ -21,7 +21,6 @@
     "延迟",
     "消散"
   ],
-  "ammoType": "thorium",
   "ammoCapacity": 480,
   "hitSize": 30,
   "buildRange": 365,

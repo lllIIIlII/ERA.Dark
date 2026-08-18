@@ -92,7 +92,7 @@
 				"钢/140"
 			]
 		},
-		/*{
+		{
 			"unit": "弥漫",
 			"time": 2400,
 			"requirements": [
@@ -103,7 +103,7 @@
 				"钢/140"
 			]
 		},
-		{
+		/*{
 			"unit": "无畏",
 			"time": 2400,
 			"requirements": [
@@ -124,5 +124,45 @@
 		"phase-fabric/120"
 	],
 	"category": "units",
-	"research": "临时核心"
+	"research": {
+		"parent": "临时核心",
+		"objectives": [
+			{
+				"type": "Research",
+				"content": "fortress"
+			},
+			{
+				"type": "Research",
+				"content": "zenith"
+			},
+			{
+				"type": "Research",
+				"content": "bryde"
+			},
+			{
+				"type": "Research",
+				"content": "spiroct"
+			},
+			{
+				"type": "Research",
+				"content": "quasar"
+			},
+			{
+				"type": "Research",
+				"content": "mega"
+			},
+			{
+				"type": "Research",
+				"content": "cyerce"
+			},
+			{
+				"type": "Research",
+				"content": "极速"
+			},
+			{
+				"type": "Research",
+				"content": "弥漫"
+			}
+		]
+	}
 }

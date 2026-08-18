@@ -1,23 +1,27 @@
 {
 	"type": "GenericCrafter",
-	"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"]
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
 	"name": "冶硅炉",
-	"health":500,
-	"itemCapacity":50,
-	"outputItem":"silicon/4",
-	"size":3,
-	"hasPower":true,
-	"hasItems":true,
-    "hasLiquids": true,
-	"craftTime":60,
-	"consumes":{
-		"power":1.6,
+	"health": 500,
+	"itemCapacity": 50,
+	"outputItem": "silicon/4",
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"craftTime": 60,
+	"consumes": {
+		"power": 1.6,
 		"items": [
-	    "coal/4",
-	    "sand/4"
-	         ]
-		},
-		"drawer": {
+			"coal/4",
+			"sand/4"
+		]
+	},
+	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
 			"DrawDefault",
@@ -31,25 +35,24 @@
 			}
 		]
 	},
-	"updateEffect": 
-	{"type":"hitEmpSpark"
-	    "particles":10//粒子个数
-	    "sizeFrom":3//位置变化
-	    "sizeTo":0//位置
-	    "length":20//长度变化
-	    "baseLength":15
-	    "colorFrom":"E8E8E860"
-	    "colorTo":"FFFFFF"
-	    "lifetime":20
-	    "cone":360
-	    },
-    "requirements": [
-	"metaglass/50",
-	"copper/50"
-	"lead/20"
-	"titanium/150"
-	],	
+	"updateEffect": {
+		"type": "ParticleEffect",
+		"particles": 10,
+		"sizeFrom": 3,
+		"sizeTo": 0,
+		"length": 20,
+		"baseLength": 15,
+		"colorFrom": "E8E8E860",
+		"colorTo": "FFFFFF",
+		"lifetime": 20,
+		"cone": 360
+	},
+	"requirements": [
+		"metaglass/50",
+		"copper/50",
+		"lead/20",
+		"titanium/150"
+	],
 	"category": "crafting",
-	"research": "炼钢厂",
+	"research": "炼钢厂"
 }
-

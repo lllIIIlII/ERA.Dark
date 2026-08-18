@@ -123,16 +123,14 @@
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
+			"DrawDefault",
 			{
-				"DrawDefault": {
-					"type": "DrawLiquidRegion",
-					"drawLiquid": "cryofluid"
-				}
+				"type": "DrawLiquidRegion",
+				"drawLiquid": "cryofluid"
 			}
 		]
 	},
 	"fuelItem": "铀",
-	"itemRadioactive": {},
 	"consumes": {
 		"liquid": "cryofluid/0.2",
 		"items": [

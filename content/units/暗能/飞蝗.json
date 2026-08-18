@@ -26,10 +26,6 @@
     "溃解",
     "暗蚀"
   ],
-  "ammoType": {
-    "type": "PowerAmmoType",
-    "totalPower": 3000
-  },
   "itemCapacity": 300,
   "hitSize": 15,
   "flying": true,

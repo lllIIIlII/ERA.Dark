@@ -18,7 +18,6 @@
 	"drillTime": 50,
 	"drillEffect": "mineBig",
 	"updateEffect": "mineBig",
-	"optionalBoostIntensity": 1.5,
 	"hardnessDrillMultiplier": 9,
 	"consumes": {
 		"power": 2.7,

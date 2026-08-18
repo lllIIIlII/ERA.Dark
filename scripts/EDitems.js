@@ -17,10 +17,13 @@ newItem("磨砂金属粉末")
 
 newItem("钢")
 newItem("镍铜合金")
+newItem("铁铬合金")
 newItem("锰钢")
 newItem("钴钢")
 newItem("殷瓦钢")
 newItem("结构钢")
+newItem("不锈钢")
+newItem("精炼铜")
 
 newItem("暗金属")
 newItem("暗能钢")

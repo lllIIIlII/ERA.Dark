@@ -32,6 +32,8 @@ require("EDliquids");
 require("blocks/临时核心");
 require("blocks/前线指挥中心");
 require("blocks/集成炼钢厂");
+require("blocks/配液池");
+require("blocks/金属精炼厂");
 require("damageLimiter");
 require("ID");
 require("status");

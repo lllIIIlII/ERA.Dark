@@ -2,11 +2,11 @@
     "localizedName": "同步轨道空间站",
     "generator": "SerpuloPlanetGenerator",
     "parent": "Planzer",
-    "icon": "defense"
+    "icon": "defense",
     "iconColor": "FFFFFF",
     "orbitRadius": 2.7,
-    "minZoom": 1.2
-    "maxZoom": 2.4
+    "minZoom": 1.2,
+    "maxZoom": 2.4,
     "hasAtmosphere": false,
     "updateLighting": false,
     "atmosphereRadIn": 0.1,
@@ -26,8 +26,8 @@
     "allowSectorInvasion": true,
     "allowLaunchToNumbered": false,
     "rules": {
-    "worldProcessorPlayerLink": true
-    }
+        "worldProcessorPlayerLink": true
+    },
     "radius": 0.1,
     "cloudMesh": [
         {
@@ -45,20 +45,18 @@
         }
     ],
     "mesh": {
-                "type": "NoiseMesh",
-                "planet": "Synchronous-orbit-space-station",
-                "seed": 1,
-                "color1": "00000000",
-                "color2": "00000000",
-                "divisions": 0,
-                "radius": 0,
-                "octaves": 0,
-                "persistence": 0,
-                "scale": 0,
-                "mag": 0
+        "type": "NoiseMesh",
+        "planet": "Synchronous-orbit-space-station",
+        "seed": 1,
+        "color1": "00000000",
+        "color2": "00000000",
+        "divisions": 0,
+        "radius": 0,
+        "octaves": 0,
+        "persistence": 0,
+        "scale": 0,
+        "mag": 0
     },
     "orbitSpacing": 1,
-    "orbitalParent": "Planzer",
-    "solarSystem": "Daina",
-    "hiddenItems": []
+    "solarSystem": "Daina"
 }

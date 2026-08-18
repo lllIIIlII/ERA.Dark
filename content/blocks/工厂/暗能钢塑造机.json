@@ -58,7 +58,7 @@
 				"lifetime": 45
 			},
 			{
-				"type": "hitEmpSpark",
+				"type": "ParticleEffect",
 				"particles": 10,
 				"sizeFrom": 3,
 				"sizeTo": 0,

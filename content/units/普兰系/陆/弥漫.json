@@ -168,23 +168,23 @@
               "colorTo": "FF8C00"
             }
           ]
+        },
+        "fragBullets": 32,
+        "fragLifeMin": 1,
+        "fragLifeMax": 1,
+        "fragRandomSpread": 20,
+        "fragBullet": {
+          "type": "LiquidBulletType",
+          "liquid": "oil",
+          "lifetime": 25,
+          "speed": 8,
+          "puddleSize": 6,
+          "orbSize": 2,
+          "knockback": 2.3,
+          "statusDuration": 600,
+          "status": "tarred",
+          "damage": 6.9
         }
-      },
-      "fragBullets": 32,
-      "fragLifeMin": 1,
-      "fragLifeMax": 1,
-      "fragRandomSpread": 20,
-      "fragBullet": {
-        "type": "LiquidBulletType",
-        "liquid": "oil",
-        "lifetime": 25,
-        "speed": 8,
-        "puddleSize": 6,
-        "orbSize": 2,
-        "knockback": 2.3,
-        "statusDuration": 600,
-        "status": "tarred",
-        "damage": 6.9
       }
     },
     {

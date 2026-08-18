@@ -26,10 +26,6 @@
     "延迟",
     "暗蚀"
   ],
-  "ammoType": {
-    "type": "PowerAmmoType",
-    "totalPower": 5800
-  },
   "itemCapacity": 450,
   "hitSize": 60,
   "flying": true,

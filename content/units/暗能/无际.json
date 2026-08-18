@@ -35,10 +35,6 @@
     "磁干扰",
     "压制"
   ],
-  "ammoType": {
-    "type": "PowerAmmoType",
-    "totalPower": 90000
-  },
   "itemCapacity": 4500,
   "hitSize": 135,
   "flying": true,

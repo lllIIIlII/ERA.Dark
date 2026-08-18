@@ -11,13 +11,5 @@
         "Planzer"
     ],
     "alwaysUnlocked": false,
-    "research": {
-        "parent": "镍铜合金",
-        "objectives": [
-            {
-                "type": "OnSector",
-                "preset": "白虹贯墨"
-            }
-        ]
-    }
+    "research": "镍铜合金"
 }

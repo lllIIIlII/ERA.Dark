@@ -4,10 +4,6 @@
   "shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"],
   "speed": 0.5,
   "rotateSpeed": 0.5,
-  "ammoType": {
-    "type": "PowerAmmoType",
-    "totalPower": 900000
-  },
   "hitSize": 140,
   "immunities": [
     "blasted",

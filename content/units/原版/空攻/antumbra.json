@@ -133,7 +133,7 @@
             "shake": 1.0,
             "rotateSpeed": 2.0,
             "ejectEffect": "casing1",
-            "shootSound": "shootBig",
+            "shootSound": "shootCleroi",
             "rotate": true,
             "top": true,
             "shadow": 8,

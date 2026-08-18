@@ -27,7 +27,6 @@
   "legExtension": 1.7,
   "legBaseOffset": 1.1,
   "legStraightLength": 9,
-  "ammoType": "pyratite",
   "legSplashDamage": 123,
   "legSplashRange": 32,
   "drownTimeMultiplier": 2,
@@ -78,7 +77,6 @@
       "reload": 360,
       "shootSound": "shootArtillery",
       "rotate": false,
-      "layer": 100,
       "inaccuracy": 0,
       "parts": [
         {
@@ -86,7 +84,7 @@
           "mirror": false,
           "x": 0,
           "y": 0,
-          "layer": 99.9,
+          "layer": 80,
           "recoilIndex": 0,
           "heatProgress": "recoil",
           "suffix": "-P",
@@ -255,7 +253,6 @@
       "reload": 360,
       "shootSound": "shootArtillery",
       "rotate": false,
-      "layer": 100,
       "inaccuracy": 0,
       "parts": [
         {
@@ -263,7 +260,7 @@
           "mirror": false,
           "x": 0,
           "y": 0,
-          "layer": 99.9,
+          "layer": 80,
           "recoilIndex": 0,
           "heatProgress": "recoil",
           "suffix": "-P",

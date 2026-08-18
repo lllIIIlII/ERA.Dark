@@ -1,21 +1,25 @@
 {
 	"type": "HeatProducer",
-	"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"]
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
 	"name": "裂变热机",
 	"health": 560,
-	"armor": 6
+	"armor": 6,
 	"itemCapacity": 10,
 	"size": 3,
 	"hasPower": false,
 	"craftTime": 60,
 	"heatOutput": 60,
 	"consumes": {
-	"liquid": "slag/0.5",
-	"items": [
-	"铀/1",
-        ]
+		"liquid": "slag/0.5",
+		"items": [
+			"铀/1"
+		]
 	},
-		"drawer": {
+	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
 			{
@@ -27,29 +31,29 @@
 				"drawLiquid": "slag"
 			},
 			{
-			    "type": "DrawGlowRegion",
-			    "color": "FF9C00"
+				"type": "DrawGlowRegion",
+				"color": "FF9C00"
 			},
-			"DrawDefault"
-			"DrawHeatOutput",
+			"DrawDefault",
+			"DrawHeatOutput"
 		]
 	},
-    "requirements": [
-    "钢/50"
-	"lead/200",
-	"graphite/50",
-	"tungsten/30"
-	],	
+	"requirements": [
+		"钢/50",
+		"lead/200",
+		"graphite/50",
+		"tungsten/30"
+	],
 	"category": "crafting",
 	"research": {
-    "parent": "临时核心",
-    "objectives": [
+		"parent": "临时核心",
+		"objectives": [
 			{
 				"type": "OnSector",
 				"preset": "南极前哨站"
 			}
 		]
-	}
+	},
 	"ambientSound": "loopHum",
 	"ambientSoundVolume": 0.7
 }
