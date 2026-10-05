@@ -28,6 +28,8 @@
       }
      ]
     }
-	"alwaysUnlocked":false
-	"addStartingItems": true
+	"alwaysUnlocked": false,
+	"addStartingItems": true,
+	"allowLaunchLoadout": true,
+	"allowLaunchSchematics": false
 }

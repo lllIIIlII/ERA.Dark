@@ -2,7 +2,7 @@
 "type": "LaunchPad",
 "name": "加速传输台",
 "shownPlanets": [ "serpulo","Planzer","Synchronous-orbit-space-station"],
-"health": 780,
+"health": 1200,
 "requirements": [
 	"silicon/200",
 	"copper/555",
@@ -11,12 +11,11 @@
 	"thorium/500",
 	],
 "size": 3,            
-"itemCapacity":250
-"launchTime":600
+"itemCapacity": 250
+"launchTime": 300
 "hasPower":true
 "consumes": {
-"liquid": "oil/0.45"
-"power": 8.5
+"power": 18
 },
 "research": "launchPad"
 "category": "effect",

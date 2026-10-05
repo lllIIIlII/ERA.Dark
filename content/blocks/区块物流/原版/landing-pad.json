@@ -1,4 +1,5 @@
 {
 "shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"],
-"itemCapacity": 1000
+"itemCapacity": 1000,
+"consumeLiquidAmount": 10
 }

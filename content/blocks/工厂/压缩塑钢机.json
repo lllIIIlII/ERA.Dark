@@ -24,7 +24,7 @@
 	"hasPower": true,
 	"hasItems": true,
 	"hasLiquids": true,
-	"craftTime": 70,
+	"craftTime": 60,
 	"consumes": {
 		"power": 1.25,
 		"liquid": "oil/0.5",

@@ -21,7 +21,7 @@
 			"铁铬合金/4",
 			"磨砂金属粉末/1"
 		],
-		"liquid": "氩/0.5"
+		"liquid": "氩/0.01"
 	},
 	"heatRequirement": 60,
 	"overheatScale": 1,

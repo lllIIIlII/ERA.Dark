@@ -16,7 +16,7 @@
 	"canOverdrive": false,
 	"xRand": 0,
 	"consumes": {
-		"power": 999
+		"power": 9999
 	},
 	"shootY": 10,
 	"shootX": -3,

@@ -8,5 +8,6 @@
 		"water": -0.05
 	},
 	"variants": 3
+	"blendGroup": "花岗岩",
 	"wall":"花岗岩-wall"
 }
