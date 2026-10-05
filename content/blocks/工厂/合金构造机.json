@@ -1,24 +1,28 @@
 {
 	"type": "GenericCrafter",
-	"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"]
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
 	"name": "合金构造机",
-	"health":1100,
-	"itemCapacity":30,
-	"outputItem":"surge-alloy/5",
-	"size":4,
-	"hasPower":true,
-	"hasItems":true,
-	"craftTime":60,	
-	"consumes":{
-		"power":3.8,
+	"health": 1100,
+	"itemCapacity": 30,
+	"outputItem": "surge-alloy/5",
+	"size": 4,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"consumes": {
+		"power": 3.8,
 		"items": [
-	    "copper/6",
-	    "lead/6"
-	    "titanium/5"
-	    "silicon/4"
-	         ]
-		},
-		"updateEffect": {
+			"copper/6",
+			"lead/6",
+			"titanium/5",
+			"silicon/4"
+		]
+	},
+	"updateEffect": {
 		"type": "MultiEffect",
 		"effects": [
 			{
@@ -48,13 +52,13 @@
 			}
 		]
 	},
-    "requirements": [
-    "thorium/560"
-	"lead/450"
-	"graphite/205"
-	"silicon/200"
-	"plastanium/320"
-	],	
+	"requirements": [
+		"thorium/560",
+		"lead/450",
+		"graphite/205",
+		"silicon/200",
+		"plastanium/320"
+	],
 	"category": "crafting",
-	"research": "冶硅炉",
+	"research": "冶硅炉"
 }

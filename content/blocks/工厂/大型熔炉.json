@@ -1,10 +1,14 @@
 {
 	"type": "GenericCrafter",
 	"name": "大型熔炉",
-	"shownPlanets": [ "serpulo","Planzer","Synchronous-orbit-space-station"]
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
 	"health": 980,
-	"craftTime":25,	
-	"outputLiquid": "slag/1.75"
+	"craftTime": 25,
+	"outputLiquid": "slag/1.75",
 	"size": 2,
 	"drawer": {
 		"type": "DrawMulti",
@@ -29,7 +33,7 @@
 	"consumes": {
 		"power": 1.5,
 		"items": [
-		"scrap/3"
+			"scrap/3"
 		]
 	},
 	"requirements": [
@@ -40,5 +44,4 @@
 	],
 	"category": "crafting",
 	"research": "冷凝器"
-	
 }

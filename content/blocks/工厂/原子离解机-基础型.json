@@ -5,7 +5,7 @@
 		"Planzer",
 		"Synchronous-orbit-space-station"
 	],
-	"name": "原子离解机",
+	"name": "原子离解机-基础型",
 	"health": 1000,
 	"itemCapacity": 300,
 	"liquidCapacity": 500,
@@ -14,15 +14,12 @@
 		"liquid": "slag/1.5"
 	},
 	"results": [
-		"titanium/14",
-		"thorium/11",
-		"graphite/8",
-		"silicon/9",
-		"钴/15",
-		"铁/14",
-		"镍/12",
-		"锰/10",
-		"铀/5"
+		"copper/40",
+		"lead/27",
+		"titanium/37",
+		"graphite/40",
+		"silicon/35",
+		"铁/25"
 	],
 	"size": 4,
 	"hasPower": true,
@@ -52,5 +49,5 @@
 		"surge-alloy/300"
 	],
 	"category": "crafting",
-	"research": "冶硅炉"
+	"research": "原子离解机"
 }

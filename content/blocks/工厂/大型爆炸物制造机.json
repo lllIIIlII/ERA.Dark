@@ -1,9 +1,9 @@
 {
 	"type": "GenericCrafter",
 	"name": "大型爆炸物制造机",
-	"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"]
+	"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"],
 	"health": 2400,
-	"armor": 45
+	"armor": 45,
 	"itemCapacity":35,
 	"outputItem":"blast-compound/2",
 	"size":3,
@@ -29,7 +29,7 @@
 				"baseLength": 0,
 				"lifetime": 30,
 				"colorFrom": "FFFFFF",
-				"colorTo": "FFFFFF50"
+				"colorTo": "FFFFFF50",
 				"cone":360
 			},
 			{
@@ -59,11 +59,11 @@
 		]
 	},
     "requirements": [
-    "titanium/120"
-	"lead/240"
-	"plastanium/25"
+    "titanium/120",
+	"lead/240",
+	"plastanium/25",
 	"silicon/35"
 	],	
 	"category": "crafting",
-	"research": "大型硫混合机",
+	"research": "大型硫混合机"
 }

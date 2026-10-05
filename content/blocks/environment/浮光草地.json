@@ -1,0 +1,10 @@
+{
+    "type": "Floor",
+    "name": "浮光草地",
+    "variants": 5,
+    "speedMultiplier": 1.25,
+    "dragMultiplier": 0.8,
+    "attributes": {
+        "water": 0.15
+    }
+}

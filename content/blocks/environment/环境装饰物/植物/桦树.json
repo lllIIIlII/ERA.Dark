@@ -2,9 +2,9 @@
 	"type": "TreeBlock",
 	"name": "桦树",
 	"solid": true,
-	"breakable":true
-	"alwaysReplace":true;
+	"breakable":true,
+	"alwaysReplace":true,
 	"clipSize":90,
-	"customShadow":true
+	"customShadow":true,
 	"shadowOffset":-4
 }

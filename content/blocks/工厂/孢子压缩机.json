@@ -1,7 +1,11 @@
 {
 	"type": "GenericCrafter",
-	"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"]
-	"health":980,
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
+	"health": 980,
 	"name": "大型孢子压缩机",
 	"outputLiquid": "oil/3.2",
 	"drawer": {
@@ -19,7 +23,7 @@
 			{
 				"type": "DrawLiquidRegion",
 				"drawLiquid": "oil"
-			}
+			},
 			{
 				"type": "DrawRegion",
 				"suffix": "-top"
@@ -53,7 +57,7 @@
 	"requirements": [
 		"silicon/100",
 		"metaglass/60",
-		"plastanium/40"
+		"plastanium/40",
 		"thorium/100"
 	],
 	"category": "crafting",

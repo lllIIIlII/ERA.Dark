@@ -1,10 +1,10 @@
 {
 	"type": "TreeBlock",
-	"name": "枯树",
+	"name": "浮影树1",
 	"solid": true,
-	"clipSize": 90,
 	"breakable": true,
 	"alwaysReplace": true,
+	"clipSize": 90,
 	"customShadow": true,
-	"shadowOffset": -4
+	"shadowOffset": -8
 }
