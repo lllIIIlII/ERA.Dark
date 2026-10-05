@@ -10,7 +10,7 @@
     "speed": 4,
     "drag": 0.06,
     "accel": 0.6,
-    "flyingLayer": 99
+    "flyingLayer": 99,
     "immunities": [
         "tarred",
         "slow"
@@ -50,7 +50,7 @@
                         "lancerLaserChargeBegin"
                     ]
                 },
-                "layer": 100
+                "layer": 100,
                 "lightningSpacing": 25,
                 "lightningLength": 5,
                 "lightningDelay": 0.6,
@@ -109,7 +109,7 @@
             "alternate": false,
             "bullet": {
                 "damage": 25,
-                "layer": 95
+                "layer": 95,
                 "lifetime": 180,
                 "width": 6,
                 "height": 18,

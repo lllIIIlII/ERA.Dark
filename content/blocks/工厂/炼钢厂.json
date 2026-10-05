@@ -1,25 +1,29 @@
 {
 	"type": "GenericCrafter",
-	"shownPlanets": ["serpulo","Planzer","Synchronous-orbit-space-station"]
+	"shownPlanets": [
+		"serpulo",
+		"Planzer",
+		"Synchronous-orbit-space-station"
+	],
 	"name": "炼钢厂",
-	"health":500,
-	"itemCapacity":10,
-    "liquidCapacity":360,
-	"outputItem":"钢/2",
-	"size":3,
-	"hasPower":true,
-	"hasItems":true,
-    "hasLiquids": true,
-	"craftTime":60,	
-	"consumes":{
-		"power":3.5,
-		"liquid":"water/0.2",
+	"health": 500,
+	"itemCapacity": 10,
+	"liquidCapacity": 360,
+	"outputItem": "钢/2",
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"craftTime": 60,
+	"consumes": {
+		"power": 3.5,
+		"liquid": "water/0.2",
 		"items": [
-	    "铁/2",
-	    "graphite/1",
-	         ]
-		},
-		"drawer": {
+			"铁/2",
+			"graphite/1"
+		]
+	},
+	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
 			"DrawDefault",
@@ -33,26 +37,24 @@
 			}
 		]
 	},
-	"updateEffect": 
-	{
-	"type": "ParticleEffect",
-	"particles": 1,
-	"sizeFrom": 10
-	"sizeTo": 0,
-	"length": 0,
-	"baseLength": 0,
-	"lifetime": 35,
-	"interp": "swing",
-	"colorFrom": "FFFFFF00",
-	"colorTo": "FFFFFF",
+	"updateEffect": {
+		"type": "ParticleEffect",
+		"particles": 1,
+		"sizeFrom": 10,
+		"sizeTo": 0,
+		"length": 0,
+		"baseLength": 0,
+		"lifetime": 35,
+		"interp": "swing",
+		"colorFrom": "FFFFFF00",
+		"colorTo": "FFFFFF"
 	},
-    "requirements": [
-	"钴/80",
-	"copper/150"
-	"lead/100"
-	"铁/55"
-	],	
+	"requirements": [
+		"钴/80",
+		"copper/150",
+		"lead/100",
+		"铁/55"
+	],
 	"category": "crafting",
-	"research": "临时核心",
+	"research": "临时核心"
 }
-

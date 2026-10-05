@@ -1,11 +1,11 @@
 {
-	"type": "SteamVent",
-	"name": "玄武岩氯气喷口",
-	"blendGroup": "basalt",
-	"effect": "ventSteam"
+    "type": "SteamVent",
+    "name": "玄武岩氯气喷口",
+    "blendGroup": "basalt",
+    "effect": "ventSteam",
     "effectColor": "CCFF00",
-    "parent": "basalt"
+    "parent": "basalt",
     "attributes": {
-    "氯": 0.11111111111
+        "氯": 0.11111111111
     }
 }
